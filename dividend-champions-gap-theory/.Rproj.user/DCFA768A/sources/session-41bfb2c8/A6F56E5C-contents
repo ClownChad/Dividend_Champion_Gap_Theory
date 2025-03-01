@@ -1,0 +1,4 @@
+When creating the final summary table, need to be able to join it with df_prices
+in Tableau
+
+Make the console messages progress bars so they're more informative
