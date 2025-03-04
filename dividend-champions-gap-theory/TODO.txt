@@ -1,4 +1,4 @@
-When creating the final summary table, need to be able to join it with df_prices
-in Tableau
+Have High price used in strategy in some way? Test to see if the high on the day
+during is greater than before or after High?
 
 Make the console messages progress bars so they're more informative

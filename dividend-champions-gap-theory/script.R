@@ -1,9 +1,9 @@
 install.packages('tidyverse')
 install.packages('quantmod')
-# install.packages('ggforce')
 library('tidyverse')
 library('quantmod')
-# library('ggforce')
+
+# INITAL SCRAPE OF ALL DIV CHAMPIONS
 
 df_symbols <- read_csv('Symbols.csv')
 symbols <- df_symbols$Symbols
@@ -147,18 +147,8 @@ for (increase_index in index(df_divs)){
 
 # print(df_prices)
 
-# write.csv(df_prices, 'prices.csv')
-
-
-# which(index(df_prices) == df_prices$Symbol )
+write.csv(df_prices, 'prices.csv')
 
 
 
-df_prices_wide <- df_prices %>%
-  select(-c('Dividend_Date', 'Increase_Year', 'Price_Date')) %>%
-  pivot_wider(
-    names_from = c('Increase_Num', 'Timeframe'),
-    values_from = c('Open', 'High', 'Low', 'Close')
-  )
-
-View(df_prices_wide)
+# SCRAPE FOR CONSISTENT STOCKS

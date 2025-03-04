@@ -40,3 +40,12 @@ Before we move on, there are some guidelines and limitations to establish. The f
   * MKC.V
   * RBCA.A
 * News and other economic data were not factored into these observations. This study strictly looked at dividend and price data pulled from Yahoo Finance.
+
+# Gathering and Prepping Data
+
+The specific trading strategy that we're testing is if we could buy the stock on the day before the dividend increase and sell it either on the increase day or the day after the increase. Therefore, we will be looking at the following price comparisons:
+* Before Open to During Close
+* Before Open to After Close
+* Before Open to During High
+* Before Open to After High
+

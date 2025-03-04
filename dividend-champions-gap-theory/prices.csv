@@ -1,4 +1,4 @@
-"","Symbol","Dividend_Date","Increase_Num","Increase_Year","Price_Date","Timeframe","Open","High","Low","Close"
+"Index","Symbol","Dividend_Date","Increase_Num","Increase_Year","Price_Date","Timeframe","Open","High","Low","Close"
 "1","ABM",2024-01-03,1,2024,2024-01-02,"Before",44.560001373291,44.9500007629395,44.310001373291,44.5499992370605
 "2","ABM",2024-01-03,1,2024,2024-01-03,"During",44.2999992370605,44.3499984741211,43.3899993896484,43.4000015258789
 "3","ABM",2024-01-03,1,2024,2024-01-04,"After",43.7200012207031,43.7200012207031,43.2099990844727,43.2999992370605

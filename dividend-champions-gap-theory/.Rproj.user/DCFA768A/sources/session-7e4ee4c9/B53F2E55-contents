@@ -1,5 +1,0 @@
-When creating the final summary table, need to be able to join it with df_prices
-in Tableau
-
-Manually add dividend and price information for the stocks that consistently 
-don't get information
