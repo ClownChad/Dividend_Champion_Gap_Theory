@@ -60,6 +60,10 @@ for (symb in symbols){
 
 # print(df_divs)
 
+
+
+# BEFORE, DURING, AND AFTER PRICES SCRAPE
+
 df_prices_blank <- tibble(
   Symbol = character(), 
   Dividend_Date = as.Date(character()),
@@ -148,7 +152,3 @@ for (increase_index in index(df_divs)){
 # print(df_prices)
 
 write.csv(df_prices, 'prices.csv')
-
-
-
-# SCRAPE FOR CONSISTENT STOCKS

@@ -11,7 +11,7 @@
 
 <meta name="author" content="Chad J" />
 
-<meta name="date" content="2025-03-03" />
+<meta name="date" content="2025-03-07" />
 
 <title>Dividend Champions Gap Theory</title>
 
@@ -352,26 +352,26 @@ display: none;
 
 <h1 class="title toc-ignore">Dividend Champions Gap Theory</h1>
 <h4 class="author">Chad J</h4>
-<h4 class="date">2025-03-03</h4>
+<h4 class="date">2025-03-07</h4>
 
 </div>
 
 
 <div id="intro" class="section level1">
 <h1>Intro</h1>
-<p>Typically, when earnings are announced for a stock, the price gaps up
-or down depending on if the earnings exceeded or fail expectations.
-While there are ways to try to attempt to predict earnings, the process
-can be rather involved and complicated. Most people would typically
-advise against trying to make such predictions.</p>
+<p>Typically, when earnings are announced for a stock, the price of the
+stock gaps up or down depending on if the earnings exceeds or fails
+expectations. While there are ways to try to attempt to predict
+earnings, the process can be rather involved and complicated. Most
+people would typically advise against trying to make such
+predictions.</p>
 <p>However, an idea came to me when I saw the price of a stock gap after
-a dividend increase: “Could you potentially trade stocks that
-consistently increase their dividends when they increase?”. With that in
-mind, I narrowed down my criteria and came up with the following
-goal:</p>
-<div id="do-dividend-champions-consistently-price-gap-once-their-annual-dividend-increase-is-announced" class="section level5">
+a dividend increase: “Could you trade stocks that consistently price gap
+when their dividend increases?”. With that in mind, I narrowed down my
+criteria and came up with the following goal:</p>
+<div id="do-dividend-champions-consistently-price-gap-once-their-dividend-increase-is-announced" class="section level5">
 <h5><strong>“Do Dividend Champions consistently price gap once their
-annual dividend increase is announced?”</strong></h5>
+dividend increase is announced?”</strong></h5>
 <p>For those that don’t know, a Dividend Champion (DC) is a stock that
 has consistently increased its dividend for 25 years or more. This
 increase typically happens annually but there are some further
@@ -385,12 +385,6 @@ other considerations, the stocks used in this study may have:</p>
 <p>If you want to know more about DCs, you can read about them in the
 article, <a href="https://www.dripinvesting.org/what-is-a-dividend-champion/">“What
 is a Dividend Champion?”</a></p>
-<p>While 25 years is the baseline to be considered a DC, the average
-number of years for stocks on the DC list is much greater than that. As
-of the time of writing this report, the average number of a years a DC
-has increased its dividend is 41.44 years. If combined with price gaps,
-this consistency could give traders the potential to safely predict
-price movements when a dividend increase occurs.</p>
 </div>
 </div>
 <div id="guidelines-limitations" class="section level1">
@@ -406,6 +400,17 @@ considered DCs.</li>
 backwards from 2024-12-31.</li>
 <li>The day before, during, and after a dividend increase will be
 observed for any notable price changes.</li>
+<li>We are looking for stocks that, for every dividend increase, you
+could buy the stock when the market opens the day before its increase
+and then sell it the day during or after the increase. To determine
+this, we’ll look at the price percentage increase for the following
+selling time periods:
+<ul>
+<li>During High</li>
+<li>During Close</li>
+<li>After High</li>
+<li>After Close</li>
+</ul></li>
 <li>The ‘quantmod’ package will be used to obtain financial data from
 Yahoo Finance. The following stock symbols were unable to be pulled
 using quantmod and, therefore, were removed from the list:
@@ -416,19 +421,44 @@ using quantmod and, therefore, were removed from the list:
 <li>MKC.V</li>
 <li>RBCA.A</li>
 </ul></li>
-<li>News and other economic data were not factored into these
+<li>News and other economic data was not factored into these
 observations. This study strictly looked at dividend and price data
 pulled from Yahoo Finance.</li>
 </ul>
 </div>
-<div id="gathering-and-prepping-data" class="section level1">
-<h1>Gathering and Prepping Data</h1>
-<p>To narrow down what stock we want, the strategy being tested is the
-assumption that you could buy the stock on the day before the dividend
-increase and sell it either on the increase day or the day after the
-increase. Therefore, we will be looking at the following price
-comparisons: * Before Open to During Close * Before Open to After Close
-* Before Open to During High * Before Open to After High</p>
+<div id="determining-price-increases-and-decreases" class="section level1">
+<h1>Determining Price Increases and Decreases</h1>
+<p>First, we determined if prices generally increase or decrease around
+dividend increases. Starting with the During High, you can see that more
+stocks actual decrease in price than increase.</p>
+<p><strong>SHOW DURING HIGH PERCENTS RANGE CHART</strong></p>
+<p>This trend continues for the During Close, After High, and After
+Close.</p>
+<p><strong>SHOW THE OTHER PERCENT RANGE CHARTS</strong></p>
+</div>
+<div id="finding-consistent-price-increases" class="section level1">
+<h1>Finding Consistent Price Increases</h1>
+<p>Secondly, we only want stocks that consistently have a price increase
+in any sell time period for each dividend increase. This narrowed us
+down from 132 stocks to 24 stocks.</p>
+<p><strong>SHOW PIE CHART</strong></p>
+<p>Of these 24 stocks, we then looked to see which selling time period’s
+prices increased the most frequently on average. This resulted in
+finding out that increases occur the most on the During High and After
+High time periods; both of which averaged over 4 out of 5 dividend
+increases showing a price increase in these time periods.</p>
+<p><strong>SHOW AVERAGE AMOUNT OF INCREASES PER TIMEFRAME</strong></p>
+<p>We then found that average price increase for all selling time
+periods were all around a 2%-2.5% increase.</p>
+<p><strong>SHOW AVERAGE PERCENT INCREASE</strong></p>
+<p>However, even if the increases are consistent, they need to be
+sizable enough to be able to make a profit from trading. If a stock has
+a consistent price increase of only 0.01% every dividend increase, that
+doesn’t give a trader an opportunity to make money. So, that brings us
+to our final point.</p>
+</div>
+<div id="finding-the-highest-consistent-price-increases" class="section level1">
+<h1>Finding the Highest Consistent Price Increases</h1>
 </div>
 
 
