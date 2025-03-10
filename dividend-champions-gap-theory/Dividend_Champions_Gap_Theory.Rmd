@@ -72,4 +72,12 @@ However, even if the increases are consistent, they need to be sizable enough to
 
 # Finding the Highest Consistent Price Increases
 
+So, for the grand reveal, of the 24 stocks, the three with the highest consistent percentage gains are:
 
+1. FAST - 2.195%
+2. WST - 1.964%
+3. ROP - 1.467%
+
+Unfortunately, as you can see, even the highest consistent stock doesn't yield enough to justify this strategy. FAST is going for about roughly \$80 right now meaning you would only get \$1.756 per stock bought and sold. 
+
+**SHOW SINGLE STOCK INSIGHTS FOR ALL STOCKS**
