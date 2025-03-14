@@ -40,6 +40,716 @@
         <range max='20.0' min='0.01' />
       </column>
     </datasource>
+    <datasource caption='dividend_yields_bool' inline='true' name='federated.12p99ox0tr56os16mfv1e0imuezl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='dividend_yields_bool' name='textscan.03gwbt31dtm06a1gu1jqa0dh6t98'>
+            <connection class='textscan' directory='C:/Users/chadd/OneDrive/Desktop/Dividend_Champion_Gap_Theory/dividend-champions-gap-theory' filename='dividend_yields_bool.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.03gwbt31dtm06a1gu1jqa0dh6t98' name='dividend_yields_bool.csv' table='[dividend_yields_bool#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Symbol' ordinal='0' />
+            <column datatype='real' name='Dividend_Yield' ordinal='1' />
+            <column datatype='boolean' name='Dividend_Bool' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[dividend_yields_bool.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Symbol</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Symbol]</local-name>
+            <parent-name>[dividend_yields_bool.csv]</parent-name>
+            <remote-alias>Symbol</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dividend_Yield</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dividend_Yield]</local-name>
+            <parent-name>[dividend_yields_bool.csv]</parent-name>
+            <remote-alias>Dividend_Yield</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dividend_Bool</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Dividend_Bool]</local-name>
+            <parent-name>[dividend_yields_bool.csv]</parent-name>
+            <remote-alias>Dividend_Bool</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Dividend Bool' datatype='boolean' name='[Dividend_Bool]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='false' value='2% or Below' />
+          <alias key='true' value='Above 2%' />
+        </aliases>
+      </column>
+      <column caption='Dividend Yield' datatype='real' name='[Dividend_Yield]' role='measure' type='quantitative' />
+      <column caption='dividend_yields_bool.csv' datatype='table' name='[__tableau_internal_object_id__].[dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2]' role='measure' type='quantitative' />
+      <column-instance column='[Dividend_Bool]' derivation='None' name='[none:Dividend_Bool:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/chadd/AppData/Local/Temp/TableauTemp/#TableauTemp_1ce3kxy08k3lke18xdpec1f5ltqf.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/14/2025 07:06:36 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Symbol</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Symbol]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Symbol</remote-alias>
+              <ordinal>0</ordinal>
+              <family>dividend_yields_bool.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>132</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dividend_Yield</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Dividend_Yield]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dividend_Yield</remote-alias>
+              <ordinal>1</ordinal>
+              <family>dividend_yields_bool.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>115</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dividend_Bool</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Dividend_Bool]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dividend_Bool</remote-alias>
+              <ordinal>2</ordinal>
+              <family>dividend_yields_bool.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Dividend_Bool:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>true</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>false</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='dividend_yields_bool.csv' id='dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2'>
+            <properties context=''>
+              <relation connection='textscan.03gwbt31dtm06a1gu1jqa0dh6t98' name='dividend_yields_bool.csv' table='[dividend_yields_bool#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Symbol' ordinal='0' />
+                  <column datatype='real' name='Dividend_Yield' ordinal='1' />
+                  <column datatype='boolean' name='Dividend_Bool' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='increases_average_info' inline='true' name='federated.1nfjjei186skii1f7sz8w0572bgu' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='increases_average_info' name='textscan.1ly29qc0ig80ce117dpro0fqlvto'>
+            <connection class='textscan' directory='C:/Users/chadd/OneDrive/Desktop/Dividend_Champion_Gap_Theory/dividend-champions-gap-theory' filename='increases_average_info.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1ly29qc0ig80ce117dpro0fqlvto' name='increases_average_info.csv' table='[increases_average_info#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='real' name='Avg_Min_DH' ordinal='0' />
+            <column datatype='real' name='Avg_Max_DH' ordinal='1' />
+            <column datatype='real' name='Avg_Avg_DH' ordinal='2' />
+            <column datatype='real' name='Avg_Min_DC' ordinal='3' />
+            <column datatype='real' name='Avg_Max_DC' ordinal='4' />
+            <column datatype='real' name='Avg_Avg_DC' ordinal='5' />
+            <column datatype='real' name='Avg_Min_AH' ordinal='6' />
+            <column datatype='real' name='Avg_Max_AH' ordinal='7' />
+            <column datatype='real' name='Avg_Avg_AH' ordinal='8' />
+            <column datatype='real' name='Avg_Min_AC' ordinal='9' />
+            <column datatype='real' name='Avg_Max_AC' ordinal='10' />
+            <column datatype='real' name='Avg_Avg_AC' ordinal='11' />
+            <column datatype='real' name='Avg_Num_Inc_DH' ordinal='12' />
+            <column datatype='real' name='Avg_Num_Inc_DC' ordinal='13' />
+            <column datatype='real' name='Avg_Num_Inc_AH' ordinal='14' />
+            <column datatype='real' name='Avg_Num_Inc_AC' ordinal='15' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Min_DH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Min_DH]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Min_DH</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Max_DH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Max_DH]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Max_DH</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Avg_DH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Avg_DH]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Avg_DH</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Min_DC</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Min_DC]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Min_DC</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Max_DC</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Max_DC]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Max_DC</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Avg_DC</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Avg_DC]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Avg_DC</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Min_AH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Min_AH]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Min_AH</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Max_AH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Max_AH]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Max_AH</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Avg_AH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Avg_AH]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Avg_AH</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Min_AC</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Min_AC]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Min_AC</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Max_AC</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Max_AC]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Max_AC</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Avg_AC</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Avg_AC]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Avg_AC</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Num_Inc_DH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Num_Inc_DH]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Num_Inc_DH</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Num_Inc_DC</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Num_Inc_DC]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Num_Inc_DC</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Num_Inc_AH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Num_Inc_AH]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Num_Inc_AH</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Num_Inc_AC</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Num_Inc_AC]</local-name>
+            <parent-name>[increases_average_info.csv]</parent-name>
+            <remote-alias>Avg_Num_Inc_AC</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Avg_AC:qk]&quot;' value='AC%' />
+          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Avg_AH:qk]&quot;' value='AH %' />
+          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Avg_DC:qk]&quot;' value='DC %' />
+          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Avg_DH:qk]&quot;' value='DH %' />
+          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Num_Inc_AC:qk]&quot;' value='AC Incs' />
+          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Num_Inc_AH:qk]&quot;' value='AH Incs' />
+          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Num_Inc_DC:qk]&quot;' value='DC Incs' />
+          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Num_Inc_DH:qk]&quot;' value='DH Incs' />
+        </aliases>
+      </column>
+      <column caption='Avg Avg AC' datatype='real' name='[Avg_Avg_AC]' role='measure' type='quantitative' />
+      <column caption='Avg Avg AH' datatype='real' name='[Avg_Avg_AH]' role='measure' type='quantitative' />
+      <column caption='Avg Avg DC' datatype='real' name='[Avg_Avg_DC]' role='measure' type='quantitative' />
+      <column caption='Avg Avg DH' datatype='real' name='[Avg_Avg_DH]' role='measure' type='quantitative' />
+      <column caption='Avg Max AC' datatype='real' name='[Avg_Max_AC]' role='measure' type='quantitative' />
+      <column caption='Avg Max AH' datatype='real' name='[Avg_Max_AH]' role='measure' type='quantitative' />
+      <column caption='Avg Max DC' datatype='real' name='[Avg_Max_DC]' role='measure' type='quantitative' />
+      <column caption='Avg Max DH' datatype='real' name='[Avg_Max_DH]' role='measure' type='quantitative' />
+      <column caption='Avg Min AC' datatype='real' name='[Avg_Min_AC]' role='measure' type='quantitative' />
+      <column caption='Avg Min AH' datatype='real' name='[Avg_Min_AH]' role='measure' type='quantitative' />
+      <column caption='Avg Min DC' datatype='real' name='[Avg_Min_DC]' role='measure' type='quantitative' />
+      <column caption='Avg Min DH' datatype='real' name='[Avg_Min_DH]' role='measure' type='quantitative' />
+      <column caption='Avg Num Inc AC' datatype='real' name='[Avg_Num_Inc_AC]' role='measure' type='quantitative' />
+      <column caption='Avg Num Inc AH' datatype='real' name='[Avg_Num_Inc_AH]' role='measure' type='quantitative' />
+      <column caption='Avg Num Inc DC' datatype='real' name='[Avg_Num_Inc_DC]' role='measure' type='quantitative' />
+      <column caption='Avg Num Inc DH' datatype='real' name='[Avg_Num_Inc_DH]' role='measure' type='quantitative' />
+      <column caption='increases_average_info.csv' datatype='table' name='[__tableau_internal_object_id__].[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]' role='measure' type='quantitative' />
+      <column-instance column='[Avg_Avg_AC]' derivation='Sum' name='[sum:Avg_Avg_AC:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Avg_Avg_AH]' derivation='Sum' name='[sum:Avg_Avg_AH:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Avg_Avg_DC]' derivation='Sum' name='[sum:Avg_Avg_DC:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Avg_Avg_DH]' derivation='Sum' name='[sum:Avg_Avg_DH:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Avg_Num_Inc_AC]' derivation='Sum' name='[sum:Avg_Num_Inc_AC:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Avg_Num_Inc_AH]' derivation='Sum' name='[sum:Avg_Num_Inc_AH:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Avg_Num_Inc_DC]' derivation='Sum' name='[sum:Avg_Num_Inc_DC:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Avg_Num_Inc_DH]' derivation='Sum' name='[sum:Avg_Num_Inc_DH:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/chadd/AppData/Local/Temp/TableauTemp/#TableauTemp_0ez2vpp0ipba9v1bot7s90cnl6ri.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/14/2025 07:05:20 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Avg_Min_DH</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Min_DH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Min_DH</remote-alias>
+              <ordinal>0</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Max_DH</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Max_DH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Max_DH</remote-alias>
+              <ordinal>1</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Avg_DH</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Avg_DH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Avg_DH</remote-alias>
+              <ordinal>2</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Min_DC</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Min_DC]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Min_DC</remote-alias>
+              <ordinal>3</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Max_DC</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Max_DC]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Max_DC</remote-alias>
+              <ordinal>4</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Avg_DC</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Avg_DC]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Avg_DC</remote-alias>
+              <ordinal>5</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Min_AH</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Min_AH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Min_AH</remote-alias>
+              <ordinal>6</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Max_AH</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Max_AH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Max_AH</remote-alias>
+              <ordinal>7</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Avg_AH</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Avg_AH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Avg_AH</remote-alias>
+              <ordinal>8</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Min_AC</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Min_AC]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Min_AC</remote-alias>
+              <ordinal>9</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Max_AC</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Max_AC]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Max_AC</remote-alias>
+              <ordinal>10</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Avg_AC</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Avg_AC]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Avg_AC</remote-alias>
+              <ordinal>11</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Num_Inc_DH</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Num_Inc_DH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Num_Inc_DH</remote-alias>
+              <ordinal>12</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Num_Inc_DC</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Num_Inc_DC]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Num_Inc_DC</remote-alias>
+              <ordinal>13</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Num_Inc_AH</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Num_Inc_AH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Num_Inc_AH</remote-alias>
+              <ordinal>14</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Num_Inc_AC</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Num_Inc_AC]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Num_Inc_AC</remote-alias>
+              <ordinal>15</ordinal>
+              <family>increases_average_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='increases_average_info.csv' id='increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11'>
+            <properties context=''>
+              <relation connection='textscan.1ly29qc0ig80ce117dpro0fqlvto' name='increases_average_info.csv' table='[increases_average_info#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='real' name='Avg_Min_DH' ordinal='0' />
+                  <column datatype='real' name='Avg_Max_DH' ordinal='1' />
+                  <column datatype='real' name='Avg_Avg_DH' ordinal='2' />
+                  <column datatype='real' name='Avg_Min_DC' ordinal='3' />
+                  <column datatype='real' name='Avg_Max_DC' ordinal='4' />
+                  <column datatype='real' name='Avg_Avg_DC' ordinal='5' />
+                  <column datatype='real' name='Avg_Min_AH' ordinal='6' />
+                  <column datatype='real' name='Avg_Max_AH' ordinal='7' />
+                  <column datatype='real' name='Avg_Avg_AH' ordinal='8' />
+                  <column datatype='real' name='Avg_Min_AC' ordinal='9' />
+                  <column datatype='real' name='Avg_Max_AC' ordinal='10' />
+                  <column datatype='real' name='Avg_Avg_AC' ordinal='11' />
+                  <column datatype='real' name='Avg_Num_Inc_DH' ordinal='12' />
+                  <column datatype='real' name='Avg_Num_Inc_DC' ordinal='13' />
+                  <column datatype='real' name='Avg_Num_Inc_AH' ordinal='14' />
+                  <column datatype='real' name='Avg_Num_Inc_AC' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
     <datasource caption='prices' inline='true' name='federated.03cruv71udqg6w0zw31uu1y4m2t1' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -1049,7 +1759,7 @@
       <column-instance column='[Num_Increases_During_High]' derivation='Sum' name='[sum:Num_Increases_During_High:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Open]' derivation='Sum' name='[sum:Open:qk]' pivot='key' type='quantitative' />
       <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/chadd/AppData/Local/Temp/TableauTemp/#TableauTemp_1dzmvcw02nhli416m7j0d1tydakx.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/14/2025 09:07:56 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/chadd/AppData/Local/Temp/TableauTemp/#TableauTemp_10eg21z1shj3or1b6psb70bzmrst.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/14/2025 09:54:46 PM' username='tableau_internal_user'>
           <relation type='collection'>
             <relation name='prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825' table='[Extract].[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]' type='table' />
             <relation name='prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB' table='[Extract].[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]' type='table' />
@@ -2120,716 +2830,6 @@
             <second-end-point object-id='prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D' />
           </relationship>
         </relationships>
-      </object-graph>
-    </datasource>
-    <datasource caption='dividend_yields_bool' inline='true' name='federated.12p99ox0tr56os16mfv1e0imuezl' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='dividend_yields_bool' name='textscan.03gwbt31dtm06a1gu1jqa0dh6t98'>
-            <connection class='textscan' directory='C:/Users/chadd/OneDrive/Desktop/Dividend_Champion_Gap_Theory/dividend-champions-gap-theory' filename='dividend_yields_bool.csv' password='' server='' workgroup-auth-mode='as-is' />
-          </named-connection>
-        </named-connections>
-        <relation connection='textscan.03gwbt31dtm06a1gu1jqa0dh6t98' name='dividend_yields_bool.csv' table='[dividend_yields_bool#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='string' name='Symbol' ordinal='0' />
-            <column datatype='real' name='Dividend_Yield' ordinal='1' />
-            <column datatype='boolean' name='Dividend_Bool' ordinal='2' />
-          </columns>
-        </relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[dividend_yields_bool.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Symbol</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Symbol]</local-name>
-            <parent-name>[dividend_yields_bool.csv]</parent-name>
-            <remote-alias>Symbol</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <object-id>[dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Dividend_Yield</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Dividend_Yield]</local-name>
-            <parent-name>[dividend_yields_bool.csv]</parent-name>
-            <remote-alias>Dividend_Yield</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Dividend_Bool</remote-name>
-            <remote-type>11</remote-type>
-            <local-name>[Dividend_Bool]</local-name>
-            <parent-name>[dividend_yields_bool.csv]</parent-name>
-            <remote-alias>Dividend_Bool</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>boolean</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2]</object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='Dividend Bool' datatype='boolean' name='[Dividend_Bool]' role='dimension' type='nominal'>
-        <aliases>
-          <alias key='false' value='2% or Below' />
-          <alias key='true' value='Above 2%' />
-        </aliases>
-      </column>
-      <column caption='Dividend Yield' datatype='real' name='[Dividend_Yield]' role='measure' type='quantitative' />
-      <column caption='dividend_yields_bool.csv' datatype='table' name='[__tableau_internal_object_id__].[dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2]' role='measure' type='quantitative' />
-      <column-instance column='[Dividend_Bool]' derivation='None' name='[none:Dividend_Bool:nk]' pivot='key' type='nominal' />
-      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/chadd/AppData/Local/Temp/TableauTemp/#TableauTemp_1ce3kxy08k3lke18xdpec1f5ltqf.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/14/2025 07:06:36 PM' username='tableau_internal_user'>
-          <relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <metadata-records>
-            <metadata-record class='column'>
-              <remote-name>Symbol</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Symbol]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Symbol</remote-alias>
-              <ordinal>0</ordinal>
-              <family>dividend_yields_bool.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>132</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-              <object-id>[dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Dividend_Yield</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Dividend_Yield]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Dividend_Yield</remote-alias>
-              <ordinal>1</ordinal>
-              <family>dividend_yields_bool.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>115</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Dividend_Bool</remote-name>
-              <remote-type>11</remote-type>
-              <local-name>[Dividend_Bool]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Dividend_Bool</remote-alias>
-              <ordinal>2</ordinal>
-              <family>dividend_yields_bool.csv</family>
-              <local-type>boolean</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>2</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2]</object-id>
-            </metadata-record>
-          </metadata-records>
-        </connection>
-      </extract>
-      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
-      <style>
-        <style-rule element='mark'>
-          <encoding attr='color' field='[none:Dividend_Bool:nk]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>true</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>false</bucket>
-            </map>
-          </encoding>
-        </style-rule>
-      </style>
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-      <object-graph>
-        <objects>
-          <object caption='dividend_yields_bool.csv' id='dividend_yields_bool.csv_7646DE0ECBBE4C66A0C3DF98249DD0F2'>
-            <properties context=''>
-              <relation connection='textscan.03gwbt31dtm06a1gu1jqa0dh6t98' name='dividend_yields_bool.csv' table='[dividend_yields_bool#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-                  <column datatype='string' name='Symbol' ordinal='0' />
-                  <column datatype='real' name='Dividend_Yield' ordinal='1' />
-                  <column datatype='boolean' name='Dividend_Bool' ordinal='2' />
-                </columns>
-              </relation>
-            </properties>
-            <properties context='extract'>
-              <relation name='Extract' table='[Extract].[Extract]' type='table' />
-            </properties>
-          </object>
-        </objects>
-      </object-graph>
-    </datasource>
-    <datasource caption='increases_average_info' inline='true' name='federated.1nfjjei186skii1f7sz8w0572bgu' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='increases_average_info' name='textscan.1ly29qc0ig80ce117dpro0fqlvto'>
-            <connection class='textscan' directory='C:/Users/chadd/OneDrive/Desktop/Dividend_Champion_Gap_Theory/dividend-champions-gap-theory' filename='increases_average_info.csv' password='' server='' workgroup-auth-mode='as-is' />
-          </named-connection>
-        </named-connections>
-        <relation connection='textscan.1ly29qc0ig80ce117dpro0fqlvto' name='increases_average_info.csv' table='[increases_average_info#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='real' name='Avg_Min_DH' ordinal='0' />
-            <column datatype='real' name='Avg_Max_DH' ordinal='1' />
-            <column datatype='real' name='Avg_Avg_DH' ordinal='2' />
-            <column datatype='real' name='Avg_Min_DC' ordinal='3' />
-            <column datatype='real' name='Avg_Max_DC' ordinal='4' />
-            <column datatype='real' name='Avg_Avg_DC' ordinal='5' />
-            <column datatype='real' name='Avg_Min_AH' ordinal='6' />
-            <column datatype='real' name='Avg_Max_AH' ordinal='7' />
-            <column datatype='real' name='Avg_Avg_AH' ordinal='8' />
-            <column datatype='real' name='Avg_Min_AC' ordinal='9' />
-            <column datatype='real' name='Avg_Max_AC' ordinal='10' />
-            <column datatype='real' name='Avg_Avg_AC' ordinal='11' />
-            <column datatype='real' name='Avg_Num_Inc_DH' ordinal='12' />
-            <column datatype='real' name='Avg_Num_Inc_DC' ordinal='13' />
-            <column datatype='real' name='Avg_Num_Inc_AH' ordinal='14' />
-            <column datatype='real' name='Avg_Num_Inc_AC' ordinal='15' />
-          </columns>
-        </relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Min_DH</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Min_DH]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Min_DH</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Max_DH</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Max_DH]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Max_DH</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Avg_DH</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Avg_DH]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Avg_DH</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Min_DC</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Min_DC]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Min_DC</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Max_DC</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Max_DC]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Max_DC</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Avg_DC</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Avg_DC]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Avg_DC</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Min_AH</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Min_AH]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Min_AH</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Max_AH</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Max_AH]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Max_AH</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Avg_AH</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Avg_AH]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Avg_AH</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Min_AC</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Min_AC]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Min_AC</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Max_AC</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Max_AC]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Max_AC</remote-alias>
-            <ordinal>10</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Avg_AC</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Avg_AC]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Avg_AC</remote-alias>
-            <ordinal>11</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Num_Inc_DH</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Num_Inc_DH]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Num_Inc_DH</remote-alias>
-            <ordinal>12</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Num_Inc_DC</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Num_Inc_DC]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Num_Inc_DC</remote-alias>
-            <ordinal>13</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Num_Inc_AH</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Num_Inc_AH]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Num_Inc_AH</remote-alias>
-            <ordinal>14</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Avg_Num_Inc_AC</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Avg_Num_Inc_AC]</local-name>
-            <parent-name>[increases_average_info.csv]</parent-name>
-            <remote-alias>Avg_Num_Inc_AC</remote-alias>
-            <ordinal>15</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
-        <aliases>
-          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Avg_AC:qk]&quot;' value='AC%' />
-          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Avg_AH:qk]&quot;' value='AH %' />
-          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Avg_DC:qk]&quot;' value='DC %' />
-          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Avg_DH:qk]&quot;' value='DH %' />
-          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Num_Inc_AC:qk]&quot;' value='AC Incs' />
-          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Num_Inc_AH:qk]&quot;' value='AH Incs' />
-          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Num_Inc_DC:qk]&quot;' value='DC Incs' />
-          <alias key='&quot;[federated.1nfjjei186skii1f7sz8w0572bgu].[sum:Avg_Num_Inc_DH:qk]&quot;' value='DH Incs' />
-        </aliases>
-      </column>
-      <column caption='Avg Avg AC' datatype='real' name='[Avg_Avg_AC]' role='measure' type='quantitative' />
-      <column caption='Avg Avg AH' datatype='real' name='[Avg_Avg_AH]' role='measure' type='quantitative' />
-      <column caption='Avg Avg DC' datatype='real' name='[Avg_Avg_DC]' role='measure' type='quantitative' />
-      <column caption='Avg Avg DH' datatype='real' name='[Avg_Avg_DH]' role='measure' type='quantitative' />
-      <column caption='Avg Max AC' datatype='real' name='[Avg_Max_AC]' role='measure' type='quantitative' />
-      <column caption='Avg Max AH' datatype='real' name='[Avg_Max_AH]' role='measure' type='quantitative' />
-      <column caption='Avg Max DC' datatype='real' name='[Avg_Max_DC]' role='measure' type='quantitative' />
-      <column caption='Avg Max DH' datatype='real' name='[Avg_Max_DH]' role='measure' type='quantitative' />
-      <column caption='Avg Min AC' datatype='real' name='[Avg_Min_AC]' role='measure' type='quantitative' />
-      <column caption='Avg Min AH' datatype='real' name='[Avg_Min_AH]' role='measure' type='quantitative' />
-      <column caption='Avg Min DC' datatype='real' name='[Avg_Min_DC]' role='measure' type='quantitative' />
-      <column caption='Avg Min DH' datatype='real' name='[Avg_Min_DH]' role='measure' type='quantitative' />
-      <column caption='Avg Num Inc AC' datatype='real' name='[Avg_Num_Inc_AC]' role='measure' type='quantitative' />
-      <column caption='Avg Num Inc AH' datatype='real' name='[Avg_Num_Inc_AH]' role='measure' type='quantitative' />
-      <column caption='Avg Num Inc DC' datatype='real' name='[Avg_Num_Inc_DC]' role='measure' type='quantitative' />
-      <column caption='Avg Num Inc DH' datatype='real' name='[Avg_Num_Inc_DH]' role='measure' type='quantitative' />
-      <column caption='increases_average_info.csv' datatype='table' name='[__tableau_internal_object_id__].[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]' role='measure' type='quantitative' />
-      <column-instance column='[Avg_Avg_AC]' derivation='Sum' name='[sum:Avg_Avg_AC:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Avg_Avg_AH]' derivation='Sum' name='[sum:Avg_Avg_AH:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Avg_Avg_DC]' derivation='Sum' name='[sum:Avg_Avg_DC:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Avg_Avg_DH]' derivation='Sum' name='[sum:Avg_Avg_DH:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Avg_Num_Inc_AC]' derivation='Sum' name='[sum:Avg_Num_Inc_AC:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Avg_Num_Inc_AH]' derivation='Sum' name='[sum:Avg_Num_Inc_AH:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Avg_Num_Inc_DC]' derivation='Sum' name='[sum:Avg_Num_Inc_DC:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Avg_Num_Inc_DH]' derivation='Sum' name='[sum:Avg_Num_Inc_DH:qk]' pivot='key' type='quantitative' />
-      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/chadd/AppData/Local/Temp/TableauTemp/#TableauTemp_0ez2vpp0ipba9v1bot7s90cnl6ri.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/14/2025 07:05:20 PM' username='tableau_internal_user'>
-          <relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <metadata-records>
-            <metadata-record class='column'>
-              <remote-name>Avg_Min_DH</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Min_DH]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Min_DH</remote-alias>
-              <ordinal>0</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Avg_Max_DH</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Max_DH]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Max_DH</remote-alias>
-              <ordinal>1</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Avg_Avg_DH</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Avg_DH]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Avg_DH</remote-alias>
-              <ordinal>2</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Avg_Min_DC</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Min_DC]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Min_DC</remote-alias>
-              <ordinal>3</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Avg_Max_DC</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Max_DC]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Max_DC</remote-alias>
-              <ordinal>4</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Avg_Avg_DC</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Avg_DC]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Avg_DC</remote-alias>
-              <ordinal>5</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Avg_Min_AH</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Min_AH]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Min_AH</remote-alias>
-              <ordinal>6</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Avg_Max_AH</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Max_AH]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Max_AH</remote-alias>
-              <ordinal>7</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Avg_Avg_AH</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Avg_AH]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Avg_AH</remote-alias>
-              <ordinal>8</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Avg_Min_AC</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Min_AC]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Min_AC</remote-alias>
-              <ordinal>9</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Avg_Max_AC</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Max_AC]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Max_AC</remote-alias>
-              <ordinal>10</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Avg_Avg_AC</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Avg_AC]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Avg_AC</remote-alias>
-              <ordinal>11</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Avg_Num_Inc_DH</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Num_Inc_DH]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Num_Inc_DH</remote-alias>
-              <ordinal>12</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Avg_Num_Inc_DC</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Num_Inc_DC]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Num_Inc_DC</remote-alias>
-              <ordinal>13</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Avg_Num_Inc_AH</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Num_Inc_AH]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Num_Inc_AH</remote-alias>
-              <ordinal>14</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Avg_Num_Inc_AC</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Avg_Num_Inc_AC]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Avg_Num_Inc_AC</remote-alias>
-              <ordinal>15</ordinal>
-              <family>increases_average_info.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11]</object-id>
-            </metadata-record>
-          </metadata-records>
-        </connection>
-      </extract>
-      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-      <object-graph>
-        <objects>
-          <object caption='increases_average_info.csv' id='increases_average_info.csv_4A1FA30218344AC1A9191330B1863D11'>
-            <properties context=''>
-              <relation connection='textscan.1ly29qc0ig80ce117dpro0fqlvto' name='increases_average_info.csv' table='[increases_average_info#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-                  <column datatype='real' name='Avg_Min_DH' ordinal='0' />
-                  <column datatype='real' name='Avg_Max_DH' ordinal='1' />
-                  <column datatype='real' name='Avg_Avg_DH' ordinal='2' />
-                  <column datatype='real' name='Avg_Min_DC' ordinal='3' />
-                  <column datatype='real' name='Avg_Max_DC' ordinal='4' />
-                  <column datatype='real' name='Avg_Avg_DC' ordinal='5' />
-                  <column datatype='real' name='Avg_Min_AH' ordinal='6' />
-                  <column datatype='real' name='Avg_Max_AH' ordinal='7' />
-                  <column datatype='real' name='Avg_Avg_AH' ordinal='8' />
-                  <column datatype='real' name='Avg_Min_AC' ordinal='9' />
-                  <column datatype='real' name='Avg_Max_AC' ordinal='10' />
-                  <column datatype='real' name='Avg_Avg_AC' ordinal='11' />
-                  <column datatype='real' name='Avg_Num_Inc_DH' ordinal='12' />
-                  <column datatype='real' name='Avg_Num_Inc_DC' ordinal='13' />
-                  <column datatype='real' name='Avg_Num_Inc_AH' ordinal='14' />
-                  <column datatype='real' name='Avg_Num_Inc_AC' ordinal='15' />
-                </columns>
-              </relation>
-            </properties>
-            <properties context='extract'>
-              <relation name='Extract' table='[Extract].[Extract]' type='table' />
-            </properties>
-          </object>
-        </objects>
       </object-graph>
     </datasource>
   </datasources>
@@ -5810,8 +5810,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='152' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='151' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
+            <zone h='100000' id='156' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='155' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
                 <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Stocks That Price Increased for Every Dividend Increase' w='98000' x='1000' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5915,8 +5915,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='269' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97538' id='268' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
+            <zone h='100000' id='273' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97538' id='272' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
                 <zone h='11231' id='11' name='All Periods % Change Per Dividend Increase' param='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Calculation_656118224150020098:qk]' type-v2='filter' values='database' w='19091' x='80182' y='9847'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6044,8 +6044,8 @@
           </layout-options>
           <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='262' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='261' param='vert' type-v2='layout-flow' w='98666' x='667' y='998'>
+            <zone h='100000' id='266' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='265' param='vert' type-v2='layout-flow' w='98666' x='667' y='998'>
                 <zone h='6235' id='108' type-v2='title' w='98666' x='667' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6177,8 +6177,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='77' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='76' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='100000' id='81' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='80' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='14980' id='5' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#555555' fontsize='25'>1. Fastenal Co (FAST) - </run>
@@ -6323,8 +6323,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='72' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='71' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='100000' id='76' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='75' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='14981' id='5' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#555555' fontsize='25'>2. West Pharmaceutical Services Inc (WST) - </run>
@@ -6469,8 +6469,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='72' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='71' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='100000' id='76' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='75' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='14981' id='5' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontsize='25'>3. Roper Technologies Inc (ROP) - </run>
@@ -6567,8 +6567,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='154' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='153' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
+            <zone h='100000' id='158' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='157' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
                 <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Average Number of Increases Per Timeframe' show-caption='true' w='98000' x='1000' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6652,8 +6652,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='117' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97538' id='116' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
+            <zone h='100000' id='121' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97538' id='120' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
                 <zone forceUpdate='true' h='23692' id='3' type-v2='text' w='98546' x='727' y='1231'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>What were the average number of </run>
@@ -6740,8 +6740,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='152' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='151' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
+            <zone h='100000' id='156' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='155' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
                 <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Average Price % Increase Per Timeframe' show-caption='true' w='98000' x='1000' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6832,8 +6832,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='37' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97538' id='36' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
+            <zone h='100000' id='41' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97538' id='40' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
                 <zone forceUpdate='true' h='27583' id='3' type-v2='text' w='98546' x='727' y='1231'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>Conclusion: </run>
@@ -6970,8 +6970,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='117' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97538' id='116' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
+            <zone h='100000' id='121' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97538' id='120' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
                 <zone forceUpdate='true' h='12299' id='3' type-v2='text' w='98546' x='727' y='1231'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>How many stocks </run>
@@ -7194,8 +7194,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='121' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='120' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='100000' id='125' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='124' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='16354' id='3' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#333333' fontsize='25'>Do </run>
@@ -7327,8 +7327,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='123' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='122' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='100000' id='127' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='126' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='13358' id='3' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>Do </run>
@@ -7496,8 +7496,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='284' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97334' id='283' param='vert' type-v2='layout-flow' w='98666' x='667' y='1333'>
+            <zone h='100000' id='288' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97334' id='287' param='vert' type-v2='layout-flow' w='98666' x='667' y='1333'>
                 <zone fixed-size='34' h='6974' id='10' is-fixed='true' name='Single Stock % Change Title' w='66136' x='667' y='1333'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -7623,8 +7623,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='96800' id='10' param='vert' type-v2='layout-flow' w='98000' x='1000' y='1600'>
+            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='96800' id='14' param='vert' type-v2='layout-flow' w='98000' x='1000' y='1600'>
                 <zone forceUpdate='true' h='16741' id='3' type-v2='text' w='98000' x='1000' y='1600'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>Sources</run>
@@ -7718,8 +7718,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='113' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='93600' id='112' param='vert' type-v2='layout-flow' w='98000' x='1000' y='3200'>
+            <zone h='100000' id='117' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='93600' id='116' param='vert' type-v2='layout-flow' w='98000' x='1000' y='3200'>
                 <zone forceUpdate='true' h='46800' id='3' type-v2='text' w='98000' x='1000' y='3200'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>The </run>
@@ -7816,8 +7816,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='124' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='123' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='100000' id='128' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='127' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='11361' id='3' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>What is a </run>
