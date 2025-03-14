@@ -1124,7 +1124,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>1962</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Symbol</remote-name>
@@ -1139,7 +1138,6 @@
               <approx-count>132</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Dividend_Date</remote-name>
@@ -1153,7 +1151,6 @@
               <aggregation>Year</aggregation>
               <approx-count>495</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Increase_Num</remote-name>
@@ -1167,7 +1164,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Increase_Year</remote-name>
@@ -1181,7 +1177,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>7</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Price_Date</remote-name>
@@ -1195,7 +1190,6 @@
               <aggregation>Year</aggregation>
               <approx-count>865</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Timeframe</remote-name>
@@ -1210,7 +1204,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Open</remote-name>
@@ -1224,7 +1217,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>1520</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>High</remote-name>
@@ -1238,7 +1230,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>1547</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Low</remote-name>
@@ -1252,7 +1243,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>1483</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Close</remote-name>
@@ -1266,7 +1256,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>1505</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Symbol</remote-name>
@@ -1281,7 +1270,6 @@
               <approx-count>132</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Increase_Num</remote-name>
@@ -1295,7 +1283,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Increase_Year</remote-name>
@@ -1309,7 +1296,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>7</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Before_Open</remote-name>
@@ -1323,7 +1309,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>639</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>During_Close</remote-name>
@@ -1337,7 +1322,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>645</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>After_Close</remote-name>
@@ -1351,7 +1335,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>645</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>During_High</remote-name>
@@ -1365,7 +1348,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>645</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>After_High</remote-name>
@@ -1379,7 +1361,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>645</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>During_Close_Percent</remote-name>
@@ -1393,7 +1374,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>654</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>After_Close_Percent</remote-name>
@@ -1407,7 +1387,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>654</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>During_High_Percent</remote-name>
@@ -1421,7 +1400,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>651</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>After_High_Percent</remote-name>
@@ -1435,7 +1413,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>651</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Symbol</remote-name>
@@ -1450,7 +1427,6 @@
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <object-id>[prices_increases.csv_E9DE572A65ED4CD5AFDA73444519691B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Increase_Num</remote-name>
@@ -1464,7 +1440,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases.csv_E9DE572A65ED4CD5AFDA73444519691B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>During_High_Increase</remote-name>
@@ -1478,7 +1453,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>109</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases.csv_E9DE572A65ED4CD5AFDA73444519691B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>During_Close_Increase</remote-name>
@@ -1492,7 +1466,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>65</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases.csv_E9DE572A65ED4CD5AFDA73444519691B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>After_High_Increase</remote-name>
@@ -1506,7 +1479,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>99</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases.csv_E9DE572A65ED4CD5AFDA73444519691B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>After_Close_Increase</remote-name>
@@ -1520,7 +1492,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>74</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases.csv_E9DE572A65ED4CD5AFDA73444519691B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Symbol</remote-name>
@@ -1535,7 +1506,6 @@
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Min_During_High</remote-name>
@@ -1549,7 +1519,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Max_During_High</remote-name>
@@ -1563,7 +1532,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Avg_During_High</remote-name>
@@ -1577,7 +1545,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Min_During_Close</remote-name>
@@ -1591,7 +1558,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Max_During_Close</remote-name>
@@ -1605,7 +1571,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Avg_During_Close</remote-name>
@@ -1619,7 +1584,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Min_After_High</remote-name>
@@ -1633,7 +1597,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Max_After_High</remote-name>
@@ -1647,7 +1610,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Avg_After_High</remote-name>
@@ -1661,7 +1623,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Min_After_Close</remote-name>
@@ -1675,7 +1636,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Max_After_Close</remote-name>
@@ -1689,7 +1649,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Avg_After_Close</remote-name>
@@ -1703,7 +1662,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Num_Increases_During_High</remote-name>
@@ -1717,7 +1675,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Num_Increases_During_Close</remote-name>
@@ -1731,7 +1688,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Num_Increases_After_High</remote-name>
@@ -1745,7 +1701,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Num_Increases_After_Close</remote-name>
@@ -1759,7 +1714,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Consistency_During_High</remote-name>
@@ -1773,7 +1727,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Consistency_During_Close</remote-name>
@@ -1787,7 +1740,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Consistency_After_High</remote-name>
@@ -1801,7 +1753,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Consistency_After_Close</remote-name>
@@ -1815,7 +1766,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Symbol</remote-name>
@@ -1830,7 +1780,6 @@
               <approx-count>132</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <object-id>[prices_increase_bool.csv_F90B01D06B89433E9C4BB47BCA0DAD02]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Increase_Bool</remote-name>
@@ -1844,7 +1793,6 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[prices_increase_bool.csv_F90B01D06B89433E9C4BB47BCA0DAD02]</object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -2671,7 +2619,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontsize='12'>After Close</run>
+            <run fontsize='10'>After Close</run>
           </formatted-text>
         </title>
         <caption>
@@ -2697,7 +2645,7 @@
           </datasource-dependencies>
           <natural-sort column='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Increase_Num (prices_aggregated.csv):ok]' direction='DESC' />
           <filter class='categorical' column='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Symbol:nk]' filter-group='3'>
-            <groupfilter function='member' level='[none:Symbol:nk]' member='&quot;ABM&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:Symbol:nk]' member='&quot;WST&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Symbol:nk]</column>
@@ -2852,7 +2800,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontsize='12'>After High</run>
+            <run fontsize='10'>After High</run>
           </formatted-text>
         </title>
         <caption>
@@ -2878,7 +2826,7 @@
           </datasource-dependencies>
           <natural-sort column='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Increase_Num (prices_aggregated.csv):ok]' direction='DESC' />
           <filter class='categorical' column='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Symbol:nk]' filter-group='3'>
-            <groupfilter function='member' level='[none:Symbol:nk]' member='&quot;ABM&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:Symbol:nk]' member='&quot;WST&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Symbol:nk]</column>
@@ -3305,7 +3253,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontsize='12'>During Close</run>
+            <run fontsize='10'>During Close</run>
           </formatted-text>
         </title>
         <caption>
@@ -3331,7 +3279,7 @@
           </datasource-dependencies>
           <natural-sort column='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Increase_Num (prices_aggregated.csv):ok]' direction='DESC' />
           <filter class='categorical' column='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Symbol:nk]' filter-group='3'>
-            <groupfilter function='member' level='[none:Symbol:nk]' member='&quot;ABM&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:Symbol:nk]' member='&quot;WST&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Symbol:nk]</column>
@@ -3480,7 +3428,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontsize='12'>During High</run>
+            <run fontsize='10'>During High</run>
           </formatted-text>
         </title>
         <caption>
@@ -3506,7 +3454,7 @@
           </datasource-dependencies>
           <natural-sort column='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Increase_Num (prices_aggregated.csv):ok]' direction='DESC' />
           <filter class='categorical' column='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Symbol:nk]' filter-group='3'>
-            <groupfilter function='member' level='[none:Symbol:nk]' member='&quot;ABM&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:Symbol:nk]' member='&quot;WST&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Symbol:nk]</column>
@@ -3687,8 +3635,8 @@
             <column-instance column='[Calculation_984318045607628802]' derivation='User' name='[usr:Calculation_984318045607628802:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <natural-sort column='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Increase_Num:ok]' direction='DESC' />
-          <filter class='categorical' column='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Symbol:nk]' filter-group='3'>
-            <groupfilter function='member' level='[none:Symbol:nk]' member='&quot;ABM&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          <filter class='categorical' column='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Symbol:nk]'>
+            <groupfilter function='member' level='[none:Symbol:nk]' member='&quot;WST&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Symbol:nk]</column>
@@ -3939,8 +3887,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='114' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='113' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
+            <zone h='100000' id='116' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='115' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
                 <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Stocks That Price Increased for Every Dividend Increase' w='98000' x='1000' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4044,8 +3992,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='231' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='230' param='vert' type-v2='layout-flow' w='97866' x='1067' y='998'>
+            <zone h='100000' id='233' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='232' param='vert' type-v2='layout-flow' w='97866' x='1067' y='998'>
                 <zone h='9103' id='11' name='All Periods % Change Per Dividend Increase' param='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Calculation_656118224150020098:qk]' type-v2='filter' values='database' w='28000' x='70933' y='7981'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4173,8 +4121,8 @@
           </layout-options>
           <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='224' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='223' param='vert' type-v2='layout-flow' w='98666' x='667' y='998'>
+            <zone h='100000' id='226' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='225' param='vert' type-v2='layout-flow' w='98666' x='667' y='998'>
                 <zone h='6235' id='108' type-v2='title' w='98666' x='667' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4233,6 +4181,352 @@
       </devicelayouts>
       <simple-id uuid='{219EE5DC-6421-419A-86A7-2EAAEA4ED244}' />
     </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='2. WST'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='prices' name='federated.03cruv71udqg6w0zw31uu1y4m2t1' />
+      </datasources>
+      <datasource-dependencies datasource='federated.03cruv71udqg6w0zw31uu1y4m2t1'>
+        <column datatype='string' name='[Symbol]' role='dimension' type='nominal' />
+        <column-instance column='[Symbol]' derivation='None' name='[none:Symbol:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98002' id='13' param='horz' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='98002' id='10' param='horz' type-v2='layout-flow' w='89378' x='483' y='999'>
+              <zone h='98002' id='8' type-v2='layout-basic' w='89378' x='483' y='999'>
+                <zone forceUpdate='true' h='14981' id='5' type-v2='text' w='89378' x='483' y='999'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#555555' fontsize='25'>2. Pharmaceutical Services Inc (WST) - 1.964%</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='55056' id='11' name='Price Action Per Dividend Increase' w='89378' x='483' y='43945'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='13858' id='17' name='DH % Change Heatmap' w='44689' x='483' y='15980'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='14107' id='19' name='AH % Change Heatmap' w='44689' x='483' y='29838'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='13858' id='20' name='DC % Change Heatmap' w='44689' x='45172' y='15980'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='14107' id='21' name='AC % Change Heatmap' w='44689' x='45172' y='29838'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98002' id='12' is-fixed='true' param='vert' type-v2='layout-flow' w='9656' x='89861' y='999'>
+              <zone h='7616' id='14' mode='dropdown' name='Price Action Per Dividend Increase' param='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Symbol:nk]' show-all='false' type-v2='filter' w='9656' x='89861' y='999'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='900' minheight='900' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='22' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+                <zone forceUpdate='true' h='14981' id='5' type-v2='text' w='89378' x='483' y='999'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#555555' fontsize='25'>2. Pharmaceutical Services Inc (WST) - 1.964%</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='103' h='13858' id='17' is-fixed='true' name='DH % Change Heatmap' w='44689' x='483' y='15980'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='103' h='13858' id='20' is-fixed='true' name='DC % Change Heatmap' w='44689' x='45172' y='15980'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='105' h='14107' id='19' is-fixed='true' name='AH % Change Heatmap' w='44689' x='483' y='29838'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='105' h='14107' id='21' is-fixed='true' name='AC % Change Heatmap' w='44689' x='45172' y='29838'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7616' id='14' mode='dropdown' name='Price Action Per Dividend Increase' param='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Symbol:nk]' show-all='false' type-v2='filter' w='9656' x='89861' y='999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='55056' id='11' is-fixed='true' name='Price Action Per Dividend Increase' w='89378' x='483' y='43945'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{20D16A32-0C30-49B4-9A86-2F023C0CA825}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='3. ROP'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='prices' name='federated.03cruv71udqg6w0zw31uu1y4m2t1' />
+      </datasources>
+      <datasource-dependencies datasource='federated.03cruv71udqg6w0zw31uu1y4m2t1'>
+        <column datatype='string' name='[Symbol]' role='dimension' type='nominal' />
+        <column-instance column='[Symbol]' derivation='None' name='[none:Symbol:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98002' id='13' param='horz' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='98002' id='10' param='horz' type-v2='layout-flow' w='89378' x='483' y='999'>
+              <zone h='98002' id='8' type-v2='layout-basic' w='89378' x='483' y='999'>
+                <zone forceUpdate='true' h='14981' id='5' type-v2='text' w='89378' x='483' y='999'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='25'>3. Roper Technologies Inc (ROP) - </run>
+                    <run bold='true' fontalignment='1' fontcolor='#e15759' fontsize='25'>1.467%</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='55056' id='11' name='Price Action Per Dividend Increase' w='89378' x='483' y='43945'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='13858' id='17' name='DH % Change Heatmap' w='44689' x='483' y='15980'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='14107' id='19' name='AH % Change Heatmap' w='44689' x='483' y='29838'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='13858' id='20' name='DC % Change Heatmap' w='44689' x='45172' y='15980'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='14107' id='21' name='AC % Change Heatmap' w='44689' x='45172' y='29838'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98002' id='12' is-fixed='true' param='vert' type-v2='layout-flow' w='9656' x='89861' y='999'>
+              <zone h='7616' id='14' mode='dropdown' name='Price Action Per Dividend Increase' param='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Symbol:nk]' show-all='false' type-v2='filter' w='9656' x='89861' y='999'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='900' minheight='900' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='22' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+                <zone forceUpdate='true' h='14981' id='5' type-v2='text' w='89378' x='483' y='999'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='25'>3. Roper Technologies Inc (ROP) - </run>
+                    <run bold='true' fontalignment='1' fontcolor='#e15759' fontsize='25'>1.467%</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='103' h='13858' id='17' is-fixed='true' name='DH % Change Heatmap' w='44689' x='483' y='15980'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='103' h='13858' id='20' is-fixed='true' name='DC % Change Heatmap' w='44689' x='45172' y='15980'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='105' h='14107' id='19' is-fixed='true' name='AH % Change Heatmap' w='44689' x='483' y='29838'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='105' h='14107' id='21' is-fixed='true' name='AC % Change Heatmap' w='44689' x='45172' y='29838'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7616' id='14' mode='dropdown' name='Price Action Per Dividend Increase' param='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Symbol:nk]' show-all='false' type-v2='filter' w='9656' x='89861' y='999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='55056' id='11' is-fixed='true' name='Price Action Per Dividend Increase' w='89378' x='483' y='43945'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{340E00B1-8C78-430F-8A14-238BD95EB74F}' />
+    </dashboard>
     <dashboard enable-sort-zone-taborder='true' name='Average Number Of Increases Per Timeframe'>
       <style />
       <size maxheight='860' maxwidth='800' minheight='560' minwidth='420' sizing-mode='range' />
@@ -4258,8 +4552,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='116' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='115' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
+            <zone h='100000' id='118' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='117' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
                 <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Average Number of Increases Per Timeframe' show-caption='true' w='98000' x='1000' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4343,8 +4637,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='79' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97538' id='78' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
+            <zone h='100000' id='81' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97538' id='80' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
                 <zone forceUpdate='true' h='23692' id='3' type-v2='text' w='98546' x='727' y='1231'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>What were the average number of </run>
@@ -4431,8 +4725,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='114' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='113' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
+            <zone h='100000' id='116' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='115' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
                 <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Average Price % Increase Per Timeframe' show-caption='true' w='98000' x='1000' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4523,8 +4817,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='79' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97538' id='78' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
+            <zone h='100000' id='81' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97538' id='80' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
                 <zone forceUpdate='true' h='12299' id='3' type-v2='text' w='98546' x='727' y='1231'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>How many stocks </run>
@@ -4592,28 +4886,6 @@
         </devicelayout>
       </devicelayouts>
       <simple-id uuid='{9B64A98D-D336-4584-9A3B-51814E42456A}' />
-    </dashboard>
-    <dashboard enable-sort-zone-taborder='true' name='Dashboard 13'>
-      <style />
-      <size sizing-mode='automatic' />
-      <zones />
-      <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
-          <zones>
-            <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='3' param='vert' type-v2='layout-flow' w='99034' x='483' y='999' />
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='8' />
-              </zone-style>
-            </zone>
-          </zones>
-        </devicelayout>
-      </devicelayouts>
-      <simple-id uuid='{340E00B1-8C78-430F-8A14-238BD95EB74F}' />
     </dashboard>
     <dashboard name='Dividend Champion Gap Theory' type='storyboard'>
       <style />
@@ -4762,8 +5034,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='81' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='80' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='100000' id='85' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='84' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='16354' id='3' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#333333' fontsize='25'>Do </run>
@@ -4895,8 +5167,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='85' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='84' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='100000' id='87' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='86' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='13358' id='3' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>Do </run>
@@ -5064,8 +5336,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='246' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97334' id='245' param='vert' type-v2='layout-flow' w='98666' x='667' y='1333'>
+            <zone h='100000' id='248' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97334' id='247' param='vert' type-v2='layout-flow' w='98666' x='667' y='1333'>
                 <zone fixed-size='34' h='6974' id='10' is-fixed='true' name='Single Stock % Change Title' w='66136' x='667' y='1333'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5188,8 +5460,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='75' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='93600' id='74' param='vert' type-v2='layout-flow' w='98000' x='1000' y='3200'>
+            <zone h='100000' id='77' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='93600' id='76' param='vert' type-v2='layout-flow' w='98000' x='1000' y='3200'>
                 <zone forceUpdate='true' h='46800' id='3' type-v2='text' w='98000' x='1000' y='3200'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>The </run>
@@ -5286,8 +5558,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='84' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='83' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='100000' id='88' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='87' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='11361' id='3' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>What is a </run>
@@ -5409,10 +5681,47 @@
       <active id='3' />
       <simple-id uuid='{16446298-FD56-4734-8629-A48063359B17}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 13'>
-      <viewpoints />
-      <active id='-1' />
+    <window class='dashboard' maximized='true' name='3. ROP'>
+      <viewpoints>
+        <viewpoint name='AC % Change Heatmap'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='AH % Change Heatmap'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='DC % Change Heatmap'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='DH % Change Heatmap'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Price Action Per Dividend Increase'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='17' />
       <simple-id uuid='{A950D2B2-D859-48A9-9B6A-CE5D91292B83}' />
+    </window>
+    <window class='dashboard' name='2. WST'>
+      <viewpoints>
+        <viewpoint name='AC % Change Heatmap'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='AH % Change Heatmap'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='DC % Change Heatmap'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='DH % Change Heatmap'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Price Action Per Dividend Increase'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='14' />
+      <simple-id uuid='{9B63674E-90AD-4C42-BEB6-F0F39FBAA2F3}' />
     </window>
     <window class='dashboard' name='% Change Occurances'>
       <viewpoints>
@@ -7110,6 +7419,447 @@
       QxPN9uqKMBQK0NbWWXOD7O3OmVPvYbTYV2qA27jQDz998l1MVgfBcJijt9yKQQa1lOG9sUlc
       TjuJdJaPHb7hmuryUft2H1VWq//z/wMcSiidXTWRTAAAAABJRU5ErkJggg==
     </thumbnail>
+    <thumbnail height='192' name='2. WST' width='192'>
+      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
+      4X4AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='3. ROP' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAgAElEQVR4nO29eZQc133f+6ne9559B2bDYCUIgiAlilpMyZZk68hyrMXREjuJLMtPXmU7
+      jh07khU7yXMix1Ys6fnEdpy8RPHyZFOrJVFcJZEESWwDgNgG0zPTM73va3VV13LfHwOCBDFY
+      huhGA+j6nDPnzNRU3furX9W37v67khBCYGHRpdg6bYCFRSexBGDR1VgCsOhqLAFYdDWWACy6
+      GksAFl2NJQCLrsYSgEVXYwnAoquxBGDR1VgCsOhqLAFYdDWOThtwpyKEoJTPkM4W8AZ72DI2
+      gs0mXfH8xNoy5ZoCgD/Yw8Q1zm8l2WSMXKl6yTGHy8fs7OR1fyHlUoaD8xHe+tAbbvirevbE
+      IQiOs3N6bNPX1itF4rkK22cmr+t8SwBt4omv/zWPHDzN6PAAxVwaz8A0v/ErH8dt3/il/u5X
+      /4ZIwaQv5CefSeIbnOGTv/Rz+Fz2ttt6/vQxXjgZoVrMUZQNto4PE+gdZ3ozAqjk+N4zh3jo
+      oTfcuD2njiGN2V+TAAqpVZ56YdESQKc58JZ38db3fBibJGFqDT7zu79FoqAwPei94jVveedP
+      8vYH9mBqCp/7wz9g/twqD+6dRghBLp0gX66zdXIKn8cFCFaXl+gdGqOQjmPzBJkYHUKSJIQQ
+      yNUSa/E0Q2MT9IYCSBLEohFCAxPY9DrFus6WsSEAHvzhH+fBH4b5H3yb75+v8Ssf/cBFm4Rp
+      EFuNopp2pqa24LCtS8I0DWLRFVTTxtTUyy+boaksL68Q6BtiuL8HSegsnI8yvW2K5GoU4fSx
+      dXzkop3FXJp0rszE5CQBrxtJuvQDIYSgVi4QS2YYHtty8V6EECj1CtG1JH1DI9iEzsDAAEPj
+      0/zIm/svXq83FZaXV/CG+hgfGbyQr0kmGadQrlsCaBc9vT2srSyRyxc4NX+YsT1vYevAlV/+
+      VyLZnXg9TkzTRAiTRx7+Ek8cOsdQf4hMvsbP/8onmR3r4Wt/8z/JG26CPi+J2CpvetcH+Sdv
+      fwMrZ47wZ//j7xgeGSGVyvDPPv7L7Jub4Fv/8CVm7n8Hzzz6Lfa96Z0XBXAlhNHkf//5F1hI
+      1/HadJx90/zaJ34GtDr/7fP/lXQdQl4bs/c+xFt29FDLx/jsf/osHo+LldUk/+pTv89k2OC/
+      ffGLDIwO4HR5SKyu8L6PfpI37pvhme8+zFcfe4GxkUHiySwf/YVfZc/MK776QnD68Pf4q7/9
+      JuPjYyTiCX7iIx/jzffuJHr2KF/4iy8xODaB0ahRkcL84b/9JPnYAl/6x2N8+td/jnoxxR//
+      8X/FHuijXsxy4G0/wU++40Ge/Mbf8t3nzjI82GMJoJ0cf+EZTi/FKNaavOe9P3TN6sSLR56l
+      llwgtRohY/Syf+cUtWyUxw9F+J1PfZpev4vnHvsq3/j2Y3zyZ98PSPzkRz7GvpkR0iun+C9/
+      /g/86Fvv5x+//k3e9y9+kdfvmWLh6Pd4+LuPc/fcPwfg+eeP8Ilf/y2GegLXtH9t4ThLZSef
+      /tTv4pQMvvCf/z2nVjI0o8+jBqf4vd/4CA6bhGEYFOPn8IQG+Y3f/nU8Djv//XN/QCKVZzLc
+      AzYXH/ulX2cw6OXRh/8XsXgCfVuIr3z3eX7zU59hpMfHqecf4+GvfYvdn/zZi/kLNB7++6/z
+      0V/9N+zZOkhq6Th/9Jdf4YH9v8U3v/ZV3v3hn+eh+3ZSSy7wmT//xmX2P/vkd5nc/zZ++r1v
+      p1FM8gf/+f/h7Q+9gaVIhP0PvIk3vW6/JYD2IfHun/oZ3g1Ui2n+5LP/hVD/b7JncvCKVzic
+      TlKr50nUnPz2v/pF/G47sXyW0PAWev1uALZt28bXDz318jX29TZC79A4TlGjqahkimUe/+aX
+      efo7NgxNoaL5MS+c/yPves91vfwA+WyWSj7B5z/3J+t/F+sU8gXq6RTbdx7AcaGRbr9gg8Pp
+      xum48LvD+QpXOPB6XJecWyvmcfWMMhReLxVnt20j+/UXLjWgWSUve5jdsu6zocltOOsZaqpJ
+      qVpldnb6qvZnshnOJ6P88fIJECaK2qBSU/nx93+Ib3zrEf70j75jCaAdCCGIx+OMjo1hkyS8
+      /iAel0St3kAIgWEY2O32y+q7O+++n7fdO81ffPFz/N1XH+Gf/9S76BkcppJaIVtpMBD0cObM
+      WUZGRi7JSwjByrmTCM8wPp+bgZ4Q9//Ye3lg7wwgqNXqvNSUdjiu/5H3D/QT6h/jF375E3ic
+      dgy9iarDWXmJx0+9yDvfdC9O+3oJsFkCfYNopQSJfI3x/gBnz5xheHgEeIVPXCEGAwpnI0n2
+      zY6QWDyDHhwh6LYx2NfLcwefZ+hHHiAWT2yYx+DAIFr/CD/z3ncgSaDIVRweN2Wjh4/+3C8g
+      YVoCaBff+Nu/JFrQ6QkHqRRzDE7t5Z7tW9BLa/zSv/lDfvv3P8v0kP+y6+wuHx/9+V/ki5/7
+      Y/7u6x4++J638qNvuov/9O8/Q184QLVh8n/98q9eONvkS3/xBcJ+F5lcmQ//7Cdw2hy8+z3v
+      5s/+6os83j8IukpgbAef/NiHNn0PE9vvYabnGT796U/T3xOiXCrx4Y//Gvve8FYOz3+e3/vM
+      vyPgsbP79W/nzTvCm0rb4evnA+9+C3/yh7/PQH8PhZLMx37xV3jlN0GSnLz/n76fv/yzP+Lb
+      AwPkC0U+8NMfxyHZ+Cfv/yB/+Vf/i9985CvctWvbhnk8+NZ38LnP/Sm/9+Lz+Fx2aqrJb/3O
+      7/CNv/nvRPIKfrcDhEVbME1T5DJJEYksilQmL8wLxw1NEYuRiGg09UvOTyfWRLFSv/h3o1YW
+      kciSUDVDCNMUxVxaLC2vCOXidbr40//wKXH4dEQsRZZEuSZfkp4iV8VSJCLiqYwwzPXcU/FV
+      UZXVK9pcKxdEIp277D7SybiILC2Lmqy84rghkrFVEV2LC90wRVOpi9W1xMX7TCdiolJXhDA0
+      sbwcFfoFG0r5jMgWyhfTqRRzIhJZErLSvHgsn02JQrl68W+5WhaRSERUao2Xj8myMAxTmKYp
+      Fo/9QPzu//0FIYQQqlwVq/HUxfMMrSlWV5bFSnRNNHXjou3pZExElpaFJIQVFeL2xODz//Hf
+      8baP/PJV2xV3Kl/533/GsUgWr9tOJlvg/T/9cd64f8em07EEcNsiSMVjhAZG8Lmd1z79DkMI
+      k2wqSa3RZGBohFDg+rqYX40lAIuuxpoMZ9HVWAKw6GosAVh0NZYALLoaSwAWXY0lAIuuxhKA
+      RVdjCcCiq7EEYNHVWAKw6GraLgDTMLDmWljcqlyyHuDI889iSnb6RieZGhvEJoFgfcGDXCnj
+      6ekDXcNmd2C3gdrUcLvcqKUYabMfKRMhODmLzZAIeO0YJpw/fZqpXTvxudw3LcyHhcVGNEoJ
+      fnA4QiDk5/X37UOS7JdOhjt2bJ799+zjyLGj2G2wJQRpxc3ptTI7Qx6Gt4U5+GKBPq+EV2oi
+      iSb+rfcxbkvy6Ik09kKcA29/iHKqQTYbRdZNxoIeTLcb4e7l3l0znbx/iy6nlouSkIME1VXi
+      FZUtO19/aRXIMHTKhQym5KLZbJLJ5kCysW//fXhddkBiZm4nfo8DzYTB3iAGgGRj1133sHN2
+      PTyGaWi4fWG8Lgd2l489e3YiTP3m37GFxatQGjKxXI0+v4tyIXtpCZBPJyjUNbZNT1IpZKir
+      Or29vUgON1JTweayowsHQldJLJ/h2IuLvOVdP8mAx0QTTtAa2NxujKbB808/SlkEecebX4fb
+      66ahaPi9nk7eu0WXY2gK5xeXGd0yRdDrIBqNW+sBLLobqxvUoquxBGDR1dyyAtCaKvW6TCcr
+      aLquoembj3nTKrSmiqKoHctfCBNZljE7+BCEaaK38RncsgL41je+QmQ5itEp3wvBs9/+//jO
+      s6c6ZACkEjHmT5/oWP6FTIJTRw9y8HikQxYIzh16lH98un0+uGUF8PoHHmRl4RRVtTPdp+ml
+      48TLBvl8viP5A4SDASrl6rVPbBNet4t0ucld27d2yAKJubltmG38CN6ykeGqlRKhvmH8NyE+
+      /kYMz97Dh0YnOLxS60j+IEimUvT0di7mT2RhgVBvH0qjQdjnuvkGCMH55TjNShOd9rysF7tB
+      hRDUaq172EIItI7VXyxewmmXLotBejMxhUDv8HsQ8Hlxu10oioKmaZf8r23jAKpm8teHCu1I
+      2mITvO/eXkKezpSiANmqxjdPljuWP8B77u6hP7Bx+XHLtgEsLG4GlgAsuprLBFDJp6irBssr
+      K+TSaUrFLPMnTpGMr/Lcc8+RyBQ7YedFtEaZ8ycPoagaIMiunqFUKlNOr7C2soyhNVg+fQzN
+      MK+Z1mtDkDh/jHQqhQCUao7I6eOYpsHq2SPIjSbFxCrt7LsymjLLp+fRDYFay3H26DMk1laJ
+      LRxldSlCNbfG6tJi28ZQhBCsRZfRL7hYmE0Wz69Qzqd4/vBx6pUCTz9zkHobe/BMXWH51FE0
+      w0QIg9UzR6hUahQSEXLZHEazQSGb3cB4g1QqQyoepd5QL29Ym7U0RxdWOXsuxsxYgKZc5fVv
+      fis9PT0cPf4iDzzQ27abui5sTvp6AyRW40xtCVFq2KF0Fk1tYJNMzuVWwO7DNE2wt6eACw2M
+      sbywwNDICIZpJ2CrcerYCwjToM9Qic8fZ3psa9u62CLHn8V0hTGFwB0YYGa7IJUpkVqKMHPg
+      IdZWTuOUDBpbZtuSv9FscOLEIfrGpnHY4NT8PGsphb4H9uDTK+RVmBjyc+bcGpPTE22xYenE
+      QTTJi2kK9HqCmuaifv4oDncAzCxOxkgvZ+kbfFUvmmTj6NEjeKjj6xm9vAQIb9nFyWee5oG7
+      xqkJF/v338Px575Hsty5EclXois1iqUKNlPFMMFo1jEFCF2moTTRNUFP0EU63a4GuEEusYpk
+      s2NoGtnYImZgnF4P9I6Mk1iO4AsFUGS5TfmvL1IK+hzkMhkMwyAeXWZsyxSz+99AfPEEkqnQ
+      UFR0rT1fYJvdSdjvpS43aDaqJDJ5liMLnDt7Blf/GAFUEvk6kllvS/6wXgr19gZIxeOojTqq
+      XMG0uTB0FcMUeANhDE3GMF9dE5AIO03s/VOcOXZso14gQSaTpb8nSKlh4BIqharK1i2jVCtV
+      QqHQdRnYrl4gXa2TTsQZnpii2dQxlBJ2Xx80q8iqoL+/l2wqwcDYVmxt6f4T5OIRnIFBnHYb
+      TblItVJleHIX5fQyvcPjJKMRXP5ehkc3v8/t9WAaTbKpFP2DgxjYwTBwez2U0qvYff04UanK
+      GgPDI7y/Db1AWqPGmYUIof5heoNewuEw9VqdciFNtlhnenora7EEczt2UJaNtvQCCVMnE48x
+      ODqCqkvUczH8AxOYShnT7sOQ81SrdYa2bucD9w1c0gvUqJXRbR6UesXqBr3TsbpBrW5QC4sr
+      YgnAoqtp21QIUwhKcuemElusE/basXcwGoduCCpKZ9+DoR4fXo/75k6FsLC4HbCqQBZdjSUA
+      i67GEoBFV3OJAIQQNBoNAHKpGMlc6YoXCtNAN0wMTcMwjUvWzhZLV77OwqKTNFUF3TQxdZXT
+      Z89fOl3FaOT5P19+gn/54R/nkSe+x9175zh8sMpDb3uA5UiEuZ27KGbi2L29BI0cK9oQjsSL
+      hHfeBQ0To5GjqIBcK+B3e9gyu4OgtwMriSwsNkRw+Nkn8Y3sxFE+z6o2cGkv0PxzT+P22tHC
+      2zFKq+zds5UzZ+o0axFkw47kClIupPmxH30nSmaRb8+ncBZi3PfOt1FYK9MwVGxSE1PX2bVj
+      jsVYjnt2b+/kHVtYXMRo1vjBc8fRNY19swMo4e2vqAIJQVOAKzBILb2Mw+HAZvOSTizg6xnA
+      5fYxOzXB5NQUNklCsju46+793LVzDpvNhtPloV5ME0vmcHn9+NxunI7ODcFbWLyaTGyVcP8Q
+      LslANtfHR1o2DiBMg9MvHkfFw713725FkhYWbccaCLPoaqxuUIuuxhKARVdzywpgbXmBY8dP
+      orVrae91kE9GiWU6N6aRXFvi/GKnwhKCKleYP3aMaqPZIQsE9XKurevQb1kBHDt2DJfHi71D
+      ExmFoXLi8EGOn1vtjAFAINRLTe6cADXNpNdjMH+2cz7IR0/z/KmVtqV/ywrgHe/6CQrRMxTq
+      nYkNmlldpGnzkM11KjaoQJgGNa1zj6iSi3M+Dw/ua8/i+msjMT4x3tYcbtnYoJl4lND4dvr8
+      nTFxeHoP7xyfJJrvXDCAXDbDQDDQsfwNyUHIDbliheH+8M03QAjOx4r0OszbLzaoxbpPl/Od
+      qj+vs6XXhbNT9UhA0UwSZe3aJ7aRmeEAQZ9nwwUxF0UlSRLBYPCmG3cnYwrB0Rc7F14dYHrU
+      T7CDi+KVqsbRZGcXxU8Mrr/mHo8Hj+fSjRpv2TaAhcXNwBKARVdzWbuinE1gCw6Tjq0Q9Ptw
+      OCVW41lGBsIsrawxPbebsaHOhUc0DY3Iyipzs+s9E3IlR6YsCDgVYvkGAalBNJHnwINvoqdN
+      mzpkYxHsvVvp8zspZuKcXclw//5dHD48zz33vw6zlicjC7aOtmtzC0Fy5TzDU9uRTIO1heP0
+      b92NVkkg606EnKFSVZjd94b25G5oHD92lIEtc0wM91ErZSg3nIyP9nLu7Cn6ekKcOrvI+NR2
+      evqH2mJDvZBgLbrC5O7X4XHC2sJxAoMziEYWwxnGRYN8ocb0zrtebTzxZAZJlwkNjG9QAig5
+      Dh95gcefOcnxkyd5/plnGR0bZXBkglK53NGXH6BRq3A+cg5Y38TtxKl51s7H+f73nkLTNGZ3
+      7WOgx4/L2b56bylxluULvUMnT5/DVo3z6LPH2LlnB/PzJzh28izJtXNty7+eX2Pp7DlMoJZd
+      xNGzlcT5w5w9OY+h64xvvxePx4W9TY1fwzCYnN3G0rkFAKr1HMtn4xSSKxyeP0ZwYAt3bRtH
+      2N1tyR8gubaI3enF6bSDMOgbnSGzeppCuU45s4LbF0bUU9TVV42kSjaOz89z7tQ8J48dulwA
+      ofFdnDz4LA/uHaVquth7915OPv99ErdIbFC7w42hylRrdUq5FKWyzPnlZdz+ELV8gkI+ifAN
+      4WubAARul5tCPk+joWCXNGRVxdANYvE4ulKnUq1xbnGtTflDPpOmWctSzOcRkoN6MYVkd+H2
+      hSln49SyK3j7J7G3aWcYvV7kucMn2L57F42GgtvtplgssLqWoF7KkcoWOL+WZ9tEf1vyBxgc
+      24bXXicVy6LWS0ROn2Rkcie6WkfXDerFNLppoqqv7oWTCDsNbP1TnDk2v3Fs0GKhSCjoo6aY
+      ONEoyU1GhweQ6zJ+v79tN3U91MsF4ukc/QNDuD0eAj4XDVkDU6GimPQGvdicbhxti4VjshJZ
+      xLB7GervxeUQpPI1to4PE48lGJuYQEKgKApuj4f/92B7eoE0VcFmAwMHjXIWf+8wulxCl1y4
+      nQ4cLg+S1J7QiLoqsxyNEewZwO91US3lqKkmMzPT6M0GLpcbVTXwel1tC42oN2VKxTL9/f0o
+      qko5n8ET7MXtAGH3IBkKckOjb2iYn3hVaERVrqHbXDQbdWs6dDsxhWibAK4XKzaoFRvUwuKK
+      WAKw6GoulgvWVIjWI4Rg71Bna5hao0a1gxPqhGZ23AcuaX0mkRUb1MLiVVhVIIuuxhKARVdj
+      CcCiq7EEYNHVXDI6kEtGicRyuN1udu/ejctxQR/C5PziMnNz114a16wVOLWSY/9dl4ZEFKaJ
+      2tTweNxk4lHcvaOErzVZzdQ4fOgIksPJ2JYZRq8xD2np3CkKNYXe/mFmJsepFVLUpCCjfa9Y
+      VaU1WIjn2T61vn9tLbdKuhlkduzac5xSSy9iG9zFUNBOs1agpHsY6vFd87obJbl0mpzhJ+x1
+      sHVinNXIWfxDk/QHXKzFUgz1hzi7sIjLF2LLcA/nFpeRZYVAKITbVPGNzTE13NN2O29HLikB
+      lk8dYmT7vcxNDvHYk0/TaDRoqg1kRSMUXl8so8g1svkCQoBcq1AoVS5JcP7Q8xyZP452oW9J
+      rlXIF0qUMmt84zuPki+W8foCOB02hGmQy2ZQmhrCNJBlmWwm83KkaVMlmipz7/57OHbwKRq6
+      oF4tUyxXEUCj0UBp1Gmo611bp06e4e5770Wqpzg4fw6nx4fX5UC+sGevqjQwbHbC/vWXtlYp
+      kVxbIVOSEaZBNpNB1QxMvYncaJDJZDFMAQjKxTyrS+eoXJhc1chHWYiXUBsNGo062fx65AJh
+      GmQyaZSmTqPRQL1gn9qok8sXEYChN0mn08hKE4SgWi6SL5YRAvSmQiabw3ypc06YHDoZYc+2
+      LcwfPQoITr04z6lTC6i1PGcicZ544km2797LSH8Ip6+XAwf2kk6X2L/vbnbdfTcnDh1s4Stz
+      Z7FhFUiSJGw2ie9++2s8/PcPkyqUOXz4MI1yiieePkKtXCCfXuPpQ6eIL57g+EJ8/UJhEiup
+      PLR7iFPLWUqpJZ45fJpyMYeqm5imiWGarC6eIF1u8vRTj1Gs1nnq8ceolnN8+avfoF4v8fhT
+      lz8wm91OKbXC88cXWD59hLPRDN/66t/xlYe/Sr7SeKXxzOw5QHZ1gUoqwuJakSceexTdFHzv
+      ySfQUTnywknWFo5z7MzyxXDwz37/Scr1Oo8++hjV1AIPP/IMcjXJU0/Pc/roQc6vZVEaymV2
+      HXnyUU4sr7E0/wMW0jJPPfYI1bpCoVDi21//Mn//8FfIZpI8/r3nKKRWeO7oGYq5LKqq8sh3
+      H0UtxXn84AnK+TRKs8njjz9JrZTlqWcOA9BsFHD4erFJNgJOiVqjjrdvEq1eILmyyMTsHH1h
+      H8dPnsbtD+N2XvpIJbsbr9SkQ7EFbnkuE8Cp40c5H83wth96I5ou8d4PfoiZ8fV57bGF02zb
+      9zqmZ7aRj56lYQgU04FaXw/d0SglSaSL5Bsmxw89z/LCOe468DpmZrfR19tDX/8AQ/0vVTUM
+      KopgbmaarQNeksUG41tnmJqexFRfftGyiVWOHjvOvte/meTKApquYUgO6tUKwubh/R/8MBOD
+      r9q8W5hItpfnv8xN9BNZjWE6Q7gvTBFeWI5z/4F7GB8dRpJgeWWFcqGAQGAYgsnpbUzNTqFW
+      a0STRe7du5ORoYENXOhk+84dTI72U5VVZE1idnqSsZEBdJx88EMfwd/MkJNNqg0dvSmztrpM
+      Mp0hlcni8PcRduqks0WaSpZYvESxUsfU12cx6koFp3v9/uYmBzl06Ch9ozM4JMFissLMWA+v
+      f/MPs2t6lKce+Sbp8uUi9bokGqq1YeFGXCaAPfsOsG/vHlwOG15/EJf95VMm5nYROXmY6MoS
+      vRPbsBk6IyMjjI+NAHBy/iTv+/BHeP0bH6LPrbFlbgen5w+zsrKEaffQqJbIFV6Kc2Mn6JaI
+      rERZzTYY6fFuaODg2FYOHLiX0cFeJqdmECYMj44xMTyALxC8ZMG3aTRJJRMcevb77Nh338Xj
+      c3vv4Ttf/j/svPuel+9luI/5F8+wsrqGKWBsdIRw3yDbZmewvWom6WDYy6mFCKuxxDXcKeFz
+      wsrqGqlMHn8whN0mER6dwW/XGR4ZYevEGMl0jrGRQUDQVBTGtk7jNsokyi76+z0Mj4wwPbkV
+      AJd/AFVen1A3MjXHs99/lpnJIbYOelnMKnjsEudOnaQsNwn4PBjm5ZHEqg1B0GtF6t4Q8QoU
+      uSY04+W/6/X6hd/Mi7/LtbJIZXLCNIWoVUoimc4IwzTXz6/VhHnhika9JnRTiFqlKDK5wsXz
+      88WyUBVZNHVDmIYu0qmkkJWmMA1dyA3lQl7yhWwNUavVxSuplosilckKwzRfYd86lVJexGJx
+      UZMVIYQQelMRiqoJIYQoFYsX7DQupG+KfDYtSuWyaKiaMA1dpJIJUanLwtBU0VCbF85tCGGa
+      IpNOinK5LJr6+h0amiIaqiYa9brQTVNoakMoTUOYhiaSiYRoqNol9jXqVZFIpoRmmKKpyCKZ
+      zohavS5M0xTFfFbkCiUhhBBNRRbxREKoTf2CD0zxra9/TSiaIYRpikKheCF/VZQqNSGEEFpT
+      EclEQlTrjYvP6yW/NetF8c1HnhQWG2NNhbgNqBdSxMomO6bHNn3t0tkX6d2ynV6/tVPPRlgC
+      sOhqrIEwi66mpQIwTRNVvTXWDt9KCLG+RNLicl7qhu4ULReAYdwa3W3x1WVW1q7Va3NzEEKg
+      67dGR7wwNOKJVKfNuEin/XLHVoHS6TROlwurgXMpsbVVsoX2xdu/3bhDBWCye+9+KpkUHdxf
+      45ZDGE3yxQr5bAbNsDwDt3B49BtDopBNEh4awRr+eRnJ7uKe/fupVCo47Xfot2+T3LECGNsy
+      1WkjbllCodC1T+oS7hgBGJpKNLpK3/A4cimDK9iPTatTlnVGB8LE0gVmprdia1O0tFsVU28S
+      ja7SMziKWs1j94ZxmArFWpOt48NkckXGRoc7beZNR28qRFfX7qQ2gMTQ8CDptUVk4aWYTeEL
+      hNEaFZZjSYZDDpJFudNG3nQEMDQ0RDq+TE13UMpn8PpDCLVKRVYp5AudNrFDSAwN9t05AtA1
+      hXiqyMz0VkAgEGSSMQbGJnHZJbp1wNvUm6wls8xOTyLEul+y6QQ9w1voCwdxO++YSsCm0Jsy
+      iVztzhGAoRsIo0mpIeG3qQwMjSFY32drbHSEXM1ktLf9q7duNQxdR5g6hZpOyGXSNzCCEIJ8
+      Lks+l6GpNylVOzsY1Ql03UDoSmv3CDMMA03TLtuGptt5aSTY6914ync3I8syPl/nPkwt3SNM
+      13WazWZHb+hWxDRNbDYbgUDndny8lenk3nR3TBXIwuK1YAmgy6jVaiwtLXXajFuG7uwC6CCG
+      CU+t3Hg6OwZgYoPxrEQVSleZeCrLNvIlJ0r2yue47LCt77XZlc1mGRxs195orccSwE3GEPAX
+      R288nY/u31gAY8H1nytRq5lkTZ3p1/CO5g+fJvXdZ696TiKZZGx09Krn7PrX/8pEUY4AAA0s
+      SURBVBKb49aYpLJpATTVBthdaI0adrcfm9lENSSCfquH43qwSfC26aufk8tlGRi4+hs6/hrb
+      jYFA4DU3xvvv203/fbuvnn40yuTk5GtKvxNsSgBCmCyePoa7bwa1XkKy2ZBMHdOE7Xdd3TEW
+      6zhs8PEDVz/nyJFVDhy4faoRr+R2evlhkwLIxZapqiaVfIbRgVF0rQx48WCiCYH9woKYTi9y
+      uNUQQmzKL5OTk13jw06/L5sSwOCWWfqGhijKNsrZVVyBfuyGTK1pZ0ySMGw27HY7DofVtHgl
+      pmluyi8DAxsF4Loz6fT7sumc7e4gA24Y6N3VDnssLG4q1jiARVdjCcCiq7EEYNHVWAKw6Gos
+      AVh0NZYALLoaSwAWXY0lAIuuxhKARVezqZFgrVEjEo0R7OmnnE0SHhxFKBWqmsTOuZl22Whh
+      0TY2JQCHx4cDDVVtYgoDRZGRDDthm4liTYa7IpudDNdNdNovmxKAKtdx+0OUaxXC4X6KlRou
+      m0nNgGFJQliT4TZks5PhuolO+2VTObu9Pnp7JcbGttBUFUbGx5GEgS4k7ID1fbO43diUACSb
+      /eJqIu/F0Cd2a12lxW2L1Qtk0dVcUQDNaoa//odvcv78ws20x8LipnJFAQjToFEtcG4pdjPt
+      sbC4qVyx+q6rMg/92PtQsss30x4Li5vKFUsAb88IkfmnqarWXlIWdy4blgBCmBx9/gek82UM
+      p/9m22RhcdPYsASQJBu7d+9GbjTpDVv7SVncuWwoACEEx0+eYXp2lrt2brvZNllY3DQ2rgKZ
+      BmVZpak1yOaLBPzrg16aWmd5Jcbg6AT1Yhp3sB+bLlNrSkxOjNxUw6+Foiioqko4HO60KRa3
+      MBsKQLLZmZmaRjVAbTYvHrc7PPi8TnKZOA5HECWfAWw4EahCYBMC88KEuHZz9Nc+S+wrT1zx
+      /0IIhBDYbFce6wvv2cYP/ePn22HeZbbcLL/cbnTaLxsLQJLYvnvvZccNQycY6qEYW8Pr9WKY
+      JhJgILBduE6SpKu+dK9kfn6ee+655zUZbsgKWql67fOu8j+9Wr9uW28E0zQ35ZduotN+2dxc
+      IGGSyeaZmtlJo5zFFdiC3WhQa4JTktB5WQSmppN77sRV0/OXSmRrx656TnD7JN7h/s2YuSmk
+      m7Bv8Es+uRl53W502i+bWw/g9jI3NwdA0Ddx4aiPjSJ125wOht5871XTG9pM5rcYkUiE2dnZ
+      TpthcYPcthM5R37kAdz9N9bA9Y5tLMHCsbPknj1+1WvXYmsYE1uufIJNYvsnfupGzLO4CVzc
+      JrUV3Cm7RJ793Jc48akv3lAakt3GB0rPAOttAFmWrV0iN6BarXZ0l8jbtgRoJ737dzL3C//0
+      qudkMhmGhq5ciZNsVn3/dsAqAV4jR44c4cCBa2z1cgGrBLgynS4BrH6514jVAL4zsATwGunp
+      6em0CRYtwBKARVdjCcCiq7EEYNHVbKobtNmosRRdw+70UilkGNkyTb2Qot6U2HfPXe2y0cKi
+      bWxKAE6PD5ddomegH5upkM9nCXiCjLjXQyM6rNCIG2KFRrwynfbLpgRQyayRlw0CmoppgMvl
+      QTIVcprEiLVP8BWxQiNemU77ZVM5h4cnuX94/fehLtrM2eLOxWoEW3Q1lgAsuhpLABZdjdUq
+      s7hliBRuPI1+H/R4Lj9ePrOEISuXHbcEYHHL8G+fgBudmvyRvfDjOy4/3ixW0Cr1y45bArDo
+      CgYf3Dj4giUAi1uGf/3Gq/8/kUwwNjp21XPGNrm0wBKAxS3D/tFr/f/qL/9rweoFsuhqLpYA
+      QghqtdoNJWYYBpqmtS3SlxCibTFk2p22oii0cPXpZenfjn4BkGW5bWlfj+0XBSBJ0g2vzWz3
+      mmDTNNsWRexmpN2uNcG3q19eol1rgq/H9o61AdZWIqiaiWbA9h1z2K/jI3O9DyKTjFGuNdA1
+      naltc3hd177N603b1BqcWVjB7Xbg9oXYMjZ8XdddL0pDRjdMqvk4vuEdhDfo034112t7U1Vo
+      ajp6o4Is+RkbuHZcpetNW5gGstxAAOlMhtmZmeu67npZiSyg4mKix0HTP0Fvi/zSsTZAvV7H
+      4XSiqzJaizehqddrOBxOMJs0mq2tjhnNOk3ThsPhQK5f3q98oyyfP0exXKFcKqG3uMaUia+Q
+      yBQol0s0tRZXU02NU2fOUalUqNZa7xfNlNgyEODMuQVa+Ug7VgKEQiF0m5epyQBSix90OBym
+      UNOYnp6i2eL6q8MTwi2l6B2cxFBb/6B7+/sx7C4mp7chWvx0AqFemnWN8fEpalpr00ayEw76
+      CPUN4na7W5w4hPweCrLJnj17MZytS7djJUBVVnCZMtFoFKXF6yFyhTKDIRcry8uUZbWlaTcr
+      abyDk8RXIqSz2ZamDVCuyTiNGsvLSzRa/JJm8kUGQi4WIxHKtUZL09bqeZyhEWJLC6SymZam
+      DVCq1vGgsLKyRL2FfumYAEaHB1EM8Ph78LVQ0QBbJ8YpVhXsbh/9QW9L03b3TOBuFvD6vITC
+      rY9aPTYyhKyB09dLsMUf0smtExTKMg6nm/6e1m595QoO4zWruL1ewm3wy/joMDXVxOHrpaeF
+      fumYANZiCcbHJ6Apo7W4ChRdXWV4dIygE6pKaz+jzUqSsuFlYnyMUj7X0rQBVtfijI2PY9dl
+      mi1uG0WjUYZGxgh7HVTql08MuxG0epZS08HE+DilQr6laQNE12KMjY/j1BVauXFpxwQw2N9L
+      dGUFyduD197atEeHh4itRqlodvoDrf2MOkNDOJtFoqtrDLVhZHJ4sJ/V6AqmO4y/xW2A0ZER
+      YmtRig2TgXBrd/90+PtxGTWiq6sMjVxjSPc1MDI4wGp0haYrRPBOaANkMmmUpoHf3qDS2mo6
+      6UyahqIwGHaTKrZ2oEWr5ijUmji9QcqFdEvTBkin0zQUjbBLpdDajzSZdBpVURjsDZDKlVqa
+      tl4vUqg2sLsDVIqtbwNkMmnkRpMBT5NsCx9pxwTQ0z/E9pkJkpki9hZbEQj2sGvnDlLJFI4W
+      J+7wBBgfn8Br01FaXXcDwn0D7JybIp7K42i5X8Ls2LmDTCqJvcUL0e1uH2NjEwRdAllt/UyA
+      YE8/e3bOsJbIttQvHekGFaaBJASpXIld++7D0+JGsM0mkUymmJi7i6DvOkZMNoGqmWiNCnaf
+      nz07x1uathAmNgTJdJ4dd9+P19XS5LHZJFLJFKPTOwn5W9s50NQMdLWGzeNj7+6dLU1bCIEN
+      QTyZZe7u1+G73RvBks3OwNAwIZ+LM6deJJlpbWNycGgIU9dIxNZYiycxW/ih9vpDhPxuyoUs
+      keUotQ1WGb1WJMlGTzhEIBjg7IsnSaRb283aPziEMHSSsTXW4gmMFjYmPb4gIb+XainH4tIK
+      lXrrulklScLrDzAxMUG9mCWeal0Vq2NVoGh0hVQ2T6/XSaivtSFWzi+cw+e2I8s1PMFeWrlX
+      RbOcICPbmZ2dQW00CLS4hFlZi7O8eJ6BkIdA72BL0148fw6/10VDruP0hlpa9dRqGVJVg5mZ
+      WVSl0fISJhmPEoksUlV0Rodbt7tcx6pAGBqKquPsGcDX4l4gm2mQKSlMT03j9rT2Fp2hIRzp
+      CCvREv1Drd0cXAgTXZEJ9fRR1QXjLa4a2jFJ5qtMTc/g9LS2d8zh78edjLASrdE/2Nr5UUII
+      BA5mt81h6k1ME2wtemc6UwJINqZnZ+nv68VpMym3eO7I7M7d9IX9lMsVatXaDa8zfSVCa2Ks
+      74pMLLbawpQBJHbv3YvH7STgc1Ou3tj09FczPbeLgZ4A5XKZeq3aWr/o2oW5S+3wC+zcuYP4
+      2irxZJpK9dr7Q18vnWkDSBK6btLT24eky2hma83QNJ1guIeAy6TeNGjlNHxd2PD7/MzMzDAy
+      2Ne6hLnULw6jjmK0tmjUdZ1AqIeQ10ZdWf+StgpDgPeCX0aHWlullSQJTdPp6e3DY9aRzdaV
+      6h1rAyydX6BcrVGtVnC5W1tfTK0tkymUqVYq2BzulrYBbBIYhkY8FiPYhiH/5cWX/FLF5Wmt
+      X7LxKMlckWqlimR3tbQNYJMkhKETi8UIhHpbl/AFViLnKVVrVCutfV86tkneerYStWIaR3AY
+      bwvruy/dkt4oUzM99AZa21B9KY/z504ztnX2mg3hzWyS95Jf5FIa/MP4W9gV+pJfDLVOpSnR
+      F2rtaPBLeUQWzjA0MX1dDeHr3STvJb8o5TSad5hQi5owHZsOfeLoIbyhXsq5BNv3t1YAS2dP
+      okhukAsEttzVUgEYzRoHD51keGiAsqyxvcW9QC/OH8EdCFPLxZnc11oBRM+foqo7sWtVPIPT
+      LRWAqckcfOE4Q0MDFGsK21rcC3Tq+FFc/hByPsbo3tYJoGMlgNZUsTndGM0GNqe3paN7pq5h
+      YMeOjibsuJ2trUurqorb7SabzTA4eO0uuc2UAHpTRXK4MbUGOLy00nTT0DGEhF0yaRrgcbW2
+      m2mzfoHrLwF0TQW7G/QGpt2Lq0V++f8Bmh3ZPyJg76IAAAAASUVORK5CYII=
+    </thumbnail>
     <thumbnail height='192' name='Average Number Of Increases Per Timeframe' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
       AAAbBElEQVR4nO3dW3Mb6X3n8W+fcCDO4JmUKOoszcjSjGbGnjh2YsfZ2rG31kl246pNyimX
@@ -8122,20 +8872,6 @@
       axfnF02rWaNl+fz61fO/dlE+ycwAZtxrZnGAGfeamQHMuNfMDGDGveYjx6QGTCY+ECLJ8qeO
       mpsx4++Cj7wBQsZjl8mPhaFnzPg7YOYFmnGvmX0DzLjXzAxgxr1mZgAz7jUzA5hxr5kZwIx7
       zf8Bk/x3uA1G5r8AAAAASUVORK5CYII=
-    </thumbnail>
-    <thumbnail height='192' name='Dashboard 13' width='192'>
-      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
-      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
-      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
-      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
-      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
-      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
-      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
-      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
-      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
-      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
-      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
-      fBUOM1sAAAAASUVORK5CYII=
     </thumbnail>
     <thumbnail height='192' name='Dividend Champion Gap Theory' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
