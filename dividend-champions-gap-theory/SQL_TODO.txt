@@ -1,1 +1,0 @@
-Could get rid of increase bool table as the prices_increases_aggregated can be used to filter for the symbols that have an increase every period

@@ -18,7 +18,7 @@
     <WindowsPersistSimpleIdentifiers />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
-  <repository-location id='DividendChampionGapTheory' path='/workbooks' revision='5.3' />
+  <repository-location id='DividendChampionGapTheory' path='/workbooks' revision='5.4' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -1049,7 +1049,7 @@
       <column-instance column='[Num_Increases_During_High]' derivation='Sum' name='[sum:Num_Increases_During_High:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Open]' derivation='Sum' name='[sum:Open:qk]' pivot='key' type='quantitative' />
       <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/chadd/AppData/Local/Temp/TableauTemp/#TableauTemp_0dg3yzl0awnj4p1a0u2v11g0lh8s.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/14/2025 07:06:18 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/chadd/AppData/Local/Temp/TableauTemp/#TableauTemp_1dzmvcw02nhli416m7j0d1tydakx.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/14/2025 09:07:56 PM' username='tableau_internal_user'>
           <relation type='collection'>
             <relation name='prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825' table='[Extract].[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]' type='table' />
             <relation name='prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB' table='[Extract].[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]' type='table' />
@@ -5810,8 +5810,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='148' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='147' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='152' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='151' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
                 <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Stocks That Price Increased for Every Dividend Increase' w='98000' x='1000' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5915,8 +5915,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='265' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='264' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='269' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97538' id='268' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
                 <zone h='11231' id='11' name='All Periods % Change Per Dividend Increase' param='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Calculation_656118224150020098:qk]' type-v2='filter' values='database' w='19091' x='80182' y='9847'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6044,8 +6044,8 @@
           </layout-options>
           <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='258' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='257' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='262' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='261' param='vert' type-v2='layout-flow' w='98666' x='667' y='998'>
                 <zone h='6235' id='108' type-v2='title' w='98666' x='667' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6177,8 +6177,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='73' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='72' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='77' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='76' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='14980' id='5' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#555555' fontsize='25'>1. Fastenal Co (FAST) - </run>
@@ -6323,8 +6323,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='68' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='67' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='72' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='71' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='14981' id='5' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#555555' fontsize='25'>2. West Pharmaceutical Services Inc (WST) - </run>
@@ -6469,8 +6469,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='68' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='67' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='72' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='71' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='14981' id='5' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontsize='25'>3. Roper Technologies Inc (ROP) - </run>
@@ -6567,8 +6567,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='150' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='149' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='154' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='153' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
                 <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Average Number of Increases Per Timeframe' show-caption='true' w='98000' x='1000' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6652,8 +6652,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='113' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='112' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='117' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97538' id='116' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
                 <zone forceUpdate='true' h='23692' id='3' type-v2='text' w='98546' x='727' y='1231'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>What were the average number of </run>
@@ -6740,8 +6740,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='148' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='147' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='152' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='151' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
                 <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Average Price % Increase Per Timeframe' show-caption='true' w='98000' x='1000' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6832,8 +6832,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='32' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='37' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97538' id='36' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
                 <zone forceUpdate='true' h='27583' id='3' type-v2='text' w='98546' x='727' y='1231'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>Conclusion: </run>
@@ -6970,8 +6970,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='113' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='112' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='117' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97538' id='116' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
                 <zone forceUpdate='true' h='12299' id='3' type-v2='text' w='98546' x='727' y='1231'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>How many stocks </run>
@@ -7194,8 +7194,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='117' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='116' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='121' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='120' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='16354' id='3' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#333333' fontsize='25'>Do </run>
@@ -7327,8 +7327,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='119' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='118' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='123' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='122' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='13358' id='3' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>Do </run>
@@ -7496,8 +7496,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='280' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='279' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='284' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97334' id='283' param='vert' type-v2='layout-flow' w='98666' x='667' y='1333'>
                 <zone fixed-size='34' h='6974' id='10' is-fixed='true' name='Single Stock % Change Title' w='66136' x='667' y='1333'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -7623,8 +7623,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='7' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='96800' id='6' param='vert' type-v2='layout-flow' w='98000' x='1000' y='1600'>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='96800' id='10' param='vert' type-v2='layout-flow' w='98000' x='1000' y='1600'>
                 <zone forceUpdate='true' h='16741' id='3' type-v2='text' w='98000' x='1000' y='1600'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>Sources</run>
@@ -7718,8 +7718,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='109' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='93600' id='108' param='vert' type-v2='layout-flow' w='98000' x='1000' y='3200'>
+            <zone h='100000' id='113' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='93600' id='112' param='vert' type-v2='layout-flow' w='98000' x='1000' y='3200'>
                 <zone forceUpdate='true' h='46800' id='3' type-v2='text' w='98000' x='1000' y='3200'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>The </run>
@@ -7816,8 +7816,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='120' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='119' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='124' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='123' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='11361' id='3' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>What is a </run>
