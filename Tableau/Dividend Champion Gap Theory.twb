@@ -18,7 +18,7 @@
     <WindowsPersistSimpleIdentifiers />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
-  <repository-location id='DividendChampionGapTheory' path='/workbooks' revision='5.5' />
+  <repository-location id='DividendChampionGapTheory' path='/workbooks' revision='5.6' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -1124,6 +1124,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1962</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Symbol</remote-name>
@@ -1138,6 +1139,7 @@
               <approx-count>132</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Dividend_Date</remote-name>
@@ -1151,6 +1153,7 @@
               <aggregation>Year</aggregation>
               <approx-count>495</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Increase_Num</remote-name>
@@ -1164,6 +1167,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Increase_Year</remote-name>
@@ -1177,6 +1181,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>7</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Price_Date</remote-name>
@@ -1190,6 +1195,7 @@
               <aggregation>Year</aggregation>
               <approx-count>865</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Timeframe</remote-name>
@@ -1204,6 +1210,7 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Open</remote-name>
@@ -1217,6 +1224,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1520</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>High</remote-name>
@@ -1230,6 +1238,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1547</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Low</remote-name>
@@ -1243,6 +1252,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1483</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Close</remote-name>
@@ -1256,6 +1266,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1505</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices.csv_4C3DC3F3E32B4E8F94A440186B7A2825]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Symbol</remote-name>
@@ -1270,6 +1281,7 @@
               <approx-count>132</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Increase_Num</remote-name>
@@ -1283,6 +1295,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Increase_Year</remote-name>
@@ -1296,6 +1309,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>7</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Before_Open</remote-name>
@@ -1309,6 +1323,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>639</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>During_Close</remote-name>
@@ -1322,6 +1337,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>645</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>After_Close</remote-name>
@@ -1335,6 +1351,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>645</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>During_High</remote-name>
@@ -1348,6 +1365,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>645</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>After_High</remote-name>
@@ -1361,6 +1379,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>645</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>During_Close_Percent</remote-name>
@@ -1374,6 +1393,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>654</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>After_Close_Percent</remote-name>
@@ -1387,6 +1407,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>654</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>During_High_Percent</remote-name>
@@ -1400,6 +1421,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>651</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>After_High_Percent</remote-name>
@@ -1413,6 +1435,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>651</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_aggregated.csv_848AD85BEB04438C81B70CDCE3E7B5DB]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Symbol</remote-name>
@@ -1427,6 +1450,7 @@
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <object-id>[prices_increases.csv_E9DE572A65ED4CD5AFDA73444519691B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Increase_Num</remote-name>
@@ -1440,6 +1464,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases.csv_E9DE572A65ED4CD5AFDA73444519691B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>During_High_Increase</remote-name>
@@ -1453,6 +1478,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>109</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases.csv_E9DE572A65ED4CD5AFDA73444519691B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>During_Close_Increase</remote-name>
@@ -1466,6 +1492,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>65</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases.csv_E9DE572A65ED4CD5AFDA73444519691B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>After_High_Increase</remote-name>
@@ -1479,6 +1506,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>99</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases.csv_E9DE572A65ED4CD5AFDA73444519691B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>After_Close_Increase</remote-name>
@@ -1492,6 +1520,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>74</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases.csv_E9DE572A65ED4CD5AFDA73444519691B]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Symbol</remote-name>
@@ -1506,6 +1535,7 @@
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Min_During_High</remote-name>
@@ -1519,6 +1549,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Max_During_High</remote-name>
@@ -1532,6 +1563,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Avg_During_High</remote-name>
@@ -1545,6 +1577,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Min_During_Close</remote-name>
@@ -1558,6 +1591,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Max_During_Close</remote-name>
@@ -1571,6 +1605,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Avg_During_Close</remote-name>
@@ -1584,6 +1619,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Min_After_High</remote-name>
@@ -1597,6 +1633,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Max_After_High</remote-name>
@@ -1610,6 +1647,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Avg_After_High</remote-name>
@@ -1623,6 +1661,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Min_After_Close</remote-name>
@@ -1636,6 +1675,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Max_After_Close</remote-name>
@@ -1649,6 +1689,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Avg_After_Close</remote-name>
@@ -1662,6 +1703,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Num_Increases_During_High</remote-name>
@@ -1675,6 +1717,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Num_Increases_During_Close</remote-name>
@@ -1688,6 +1731,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Num_Increases_After_High</remote-name>
@@ -1701,6 +1745,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Num_Increases_After_Close</remote-name>
@@ -1714,6 +1759,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Consistency_During_High</remote-name>
@@ -1727,6 +1773,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Consistency_During_Close</remote-name>
@@ -1740,6 +1787,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Consistency_After_High</remote-name>
@@ -1753,6 +1801,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Consistency_After_Close</remote-name>
@@ -1766,6 +1815,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increases_aggregated.csv_26A8ABFE8BB549EE9BFAA4FDBB5A9E2D]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Symbol</remote-name>
@@ -1780,6 +1830,7 @@
               <approx-count>132</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <object-id>[prices_increase_bool.csv_F90B01D06B89433E9C4BB47BCA0DAD02]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Increase_Bool</remote-name>
@@ -1793,6 +1844,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[prices_increase_bool.csv_F90B01D06B89433E9C4BB47BCA0DAD02]</object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -5758,8 +5810,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='164' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='163' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
+            <zone h='100000' id='168' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='167' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
                 <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Stocks That Price Increased for Every Dividend Increase' w='98000' x='1000' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5863,8 +5915,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='281' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97538' id='280' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
+            <zone h='100000' id='285' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97538' id='284' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
                 <zone h='11231' id='11' name='All Periods % Change Per Dividend Increase' param='[federated.03cruv71udqg6w0zw31uu1y4m2t1].[none:Calculation_656118224150020098:qk]' type-v2='filter' values='database' w='19091' x='80182' y='9847'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5992,8 +6044,8 @@
           </layout-options>
           <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='274' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='273' param='vert' type-v2='layout-flow' w='98666' x='667' y='998'>
+            <zone h='100000' id='278' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='277' param='vert' type-v2='layout-flow' w='98666' x='667' y='998'>
                 <zone h='6235' id='108' type-v2='title' w='98666' x='667' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6125,8 +6177,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='89' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='88' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='100000' id='93' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='92' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='14980' id='5' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#555555' fontsize='25'>1. Fastenal Co (FAST) - </run>
@@ -6271,8 +6323,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='84' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='83' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='100000' id='88' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='87' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='14981' id='5' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#555555' fontsize='25'>2. West Pharmaceutical Services Inc (WST) - </run>
@@ -6417,8 +6469,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='84' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='83' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='100000' id='88' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='87' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='14981' id='5' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontsize='25'>3. Roper Technologies Inc (ROP) - </run>
@@ -6515,8 +6567,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='166' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='165' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
+            <zone h='100000' id='170' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='169' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
                 <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Average Number of Increases Per Timeframe' show-caption='true' w='98000' x='1000' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6600,8 +6652,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='129' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97538' id='128' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
+            <zone h='100000' id='133' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97538' id='132' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
                 <zone forceUpdate='true' h='23692' id='3' type-v2='text' w='98546' x='727' y='1231'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>What were the average number of </run>
@@ -6688,8 +6740,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='164' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='163' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
+            <zone h='100000' id='168' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='167' param='vert' type-v2='layout-flow' w='98000' x='1000' y='998'>
                 <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Average Price % Increase Per Timeframe' show-caption='true' w='98000' x='1000' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6780,8 +6832,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='49' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97538' id='48' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
+            <zone h='100000' id='53' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97538' id='52' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
                 <zone forceUpdate='true' h='27583' id='3' type-v2='text' w='98546' x='727' y='1231'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>Conclusion: </run>
@@ -6918,8 +6970,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='129' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97538' id='128' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
+            <zone h='100000' id='133' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97538' id='132' param='vert' type-v2='layout-flow' w='98546' x='727' y='1231'>
                 <zone forceUpdate='true' h='12299' id='3' type-v2='text' w='98546' x='727' y='1231'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>How many stocks </run>
@@ -7142,8 +7194,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='133' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='132' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='100000' id='137' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='136' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='16354' id='3' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#333333' fontsize='25'>Do </run>
@@ -7275,8 +7327,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='135' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='134' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='100000' id='139' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='138' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='13358' id='3' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>Do </run>
@@ -7444,8 +7496,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='296' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97334' id='295' param='vert' type-v2='layout-flow' w='98666' x='667' y='1333'>
+            <zone h='100000' id='300' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97334' id='299' param='vert' type-v2='layout-flow' w='98666' x='667' y='1333'>
                 <zone fixed-size='34' h='6974' id='10' is-fixed='true' name='Single Stock % Change Title' w='66136' x='667' y='1333'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -7578,8 +7630,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='96800' id='22' param='vert' type-v2='layout-flow' w='98546' x='727' y='1600'>
+            <zone h='100000' id='27' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='96800' id='26' param='vert' type-v2='layout-flow' w='98546' x='727' y='1600'>
                 <zone forceUpdate='true' h='16741' id='3' type-v2='text' w='98546' x='727' y='1600'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>Sources</run>
@@ -7680,8 +7732,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='125' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='93600' id='124' param='vert' type-v2='layout-flow' w='98000' x='1000' y='3200'>
+            <zone h='100000' id='129' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='93600' id='128' param='vert' type-v2='layout-flow' w='98000' x='1000' y='3200'>
                 <zone forceUpdate='true' h='46800' id='3' type-v2='text' w='98000' x='1000' y='3200'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>The </run>
@@ -7778,8 +7830,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='136' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98002' id='135' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='100000' id='140' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='139' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
                 <zone forceUpdate='true' h='11361' id='3' type-v2='text' w='99034' x='483' y='999'>
                   <formatted-text>
                     <run fontalignment='1' fontsize='25'>What is a </run>
@@ -7834,7 +7886,7 @@
     </dashboard>
   </dashboards>
   <windows saved-dpi-scale-factor='1.25' source-height='89'>
-    <window class='dashboard' name='Dividend Champion Gap Theory'>
+    <window class='dashboard' maximized='true' name='Dividend Champion Gap Theory'>
       <viewpoints />
       <active id='-1' />
       <simple-id uuid='{1FD63521-EAAF-436B-834E-7FE2933E5128}' />
@@ -8014,7 +8066,7 @@
       <active id='-1' />
       <simple-id uuid='{52C9DA1F-35F1-4AAE-8457-017CADA98E8E}' />
     </window>
-    <window class='dashboard' maximized='true' name='Sources'>
+    <window class='dashboard' name='Sources'>
       <viewpoints />
       <active id='5' />
       <simple-id uuid='{718CADD1-2B10-47A4-A0C4-5C669A595162}' />
@@ -12712,49 +12764,301 @@
     </thumbnail>
     <thumbnail height='192' name='Dividend Champion Gap Theory' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
-      AAAI5ElEQVR4nO3cW1Mb9x2H8WdXWqHDCp0RIBA+JGntybhpM7loZ9rpVd9t73rRN9C7tuM0
-      MXZicGxzRuh8Xh22F9QknuD4AAY6v+/nCu2s4IdmHv1Xfy92wjAMETHKve4BRK6TAhDTFICY
-      pgDEtOirL4bD4XXOca5oNPr2k66B67rM5/PrHuNnNNf7cV33xwD29vauc5Zz5fP56x7hXIlE
-      4ka+YWiu95NIJHQJJLYpADHtnAB6PN08OHu0f7B/heO8WefkmOFsztOn25wcH1OrN14/YTai
-      3R0Bv/x55rvH3/LsxQ7BoMv2D8/p9C+4NI/afPNkm939o9MxJiPG0/Oud0MeP378QT9iOujw
-      +LtndNoNBsHsnZ4TzgK2t7aptzpvPOenr1O73T73nDcdv4idrSd0gzd/Jmi32z/7udNhi2e7
-      x5c+yzmfMqf0uiP+/re/4hdX2dva4k9//op//GuP9eUUo26T+7//C6VU5NKH+SXpTJIftreZ
-      RBOMgoBw2uP7w31K6+tsPvw3qxsb1FszfvebT6md1Bi0G6RL61TKBTa//ifTWJYH9z4h4S+S
-      iTo8PWxy/84tnIsONp8wmsyZTCdsfvs1xUyKoZtlEvSIhhNevtzl86/+SDyok0ymaHa79Htj
-      wqDFixf7ZMsV3EmP1coam4++obxyh7k7J+LMOdrZJVlY4VerOYJgyMv9EanUkNvVylvH6hwf
-      UqzeIRMZsfn4e+LJBLNhl5m7gDvtk8itEE5HBP02XrpE62iH6kaVbx89obBSxQk6eIk03Vad
-      O5/eJ5NOXvSVevWC4SykaB8f0Qqnp0emYxrdEb998DkAB3svmczgk8/u0TjaYTgcEXHnjGNL
-      lzTDj954CXTr7q8pZBdZ36jgOHDvwZfEr3FTxvF8mt0Odwsx2uMQbyHJWrlArdGisraCG0kQ
-      +0mTxVKJRr0OBMyIE4uc3vHRqtc47gWsZeNsP7uEFQAor1S4XV0jVyzjJ2I4DuA4uK5H9fZd
-      UgsutVYXx4F2s8OgvkM6XyZXWGKlXCJXLDMZDlherzDuDXFwCOczMrkSleUl4tkilaUcmfQi
-      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
+      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
+      AABJRU5ErkJggg==
     </thumbnail>
     <thumbnail height='45' name='FAST AC % Change' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAAAtCAYAAAD4BmRbAAAACXBIWXMAABJ0AAASdAHeZh94
