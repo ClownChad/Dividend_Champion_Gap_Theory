@@ -4,7 +4,7 @@ My Google Data Analytics capstone project.
 
 I used the following tools:
 - R - Used to scrape stock data
-- SQLite - Used to locally create a database and perform SQL commands
+- SQLite with DB Browser - Used to locally create a database and perform SQL commands
 - Tableau - Used for data vizualizations
 
 If you want to invoke my scripts and SQL commands, they were performed in the following order:
